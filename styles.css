@@ -1,15 +1,15 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #161616;
-    background-image: url(img/vhsglitch.jpg);
+    background-color: #C1121F;
+    /* background-image: url(img/vhsglitch.jpg); */
 }
 .navigationBar{
     position: absolute;
     width: 100%;
     display: flex;
     height: 8vh;
-    /* background-color: #161616; */
+    top: 0;
 }
 .navigationBar ul{
     margin-left: 0%;
@@ -28,14 +28,15 @@ body{
     /* background-color: #FFFFFF; */
     border-radius: 2vh;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: #C1121F;
     font-size: 2vh;
     border: 0.1vh solid #FFFFFF;
     font-weight: 800;
+    background-color: #FFFFFF;
 }
 .navigationBar ul li:hover{
     cursor: pointer;
-    background-color: #FFFFFF;
-    color: #161616;
-    border: 0.1vh solid #161616;
+    background-color: #C1121F;
+    color: #FFFFFF;
+    border: 0.1vh solid #FFFFFF;
 }
