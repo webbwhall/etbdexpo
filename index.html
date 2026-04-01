@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Campus Map</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="srcipt.js"></script>
-    <!-- <div class="stuff" id="clickable" onclick="clickedMe()">
-        Website
-    </div> -->
+
+    <div class="introPopup" id="introPopup">
+        <div class="popupBox">
+            <h1>Welcome to the Map</h1>
+            <p>
+                Use the interactive map to explore important campus locations,
+                student stories, and key spaces.
+            </p>
+            <ul>
+                <li>Click map markers to view details</li>
+                <li>Use the top navigation to switch pages</li>
+                <li>Return home anytime from the menu</li>
+            </ul>
+            <button id="startButton">Start Exploring</button>
+        </div>
+    </div>
 
     <div class="navigationBar">
         <ul>
-            <li>
-                Home
-            </li>
-            <li>
-                Map
-            </li>
-            <li>
-                Students
-            </li>
-            <li>
-                About
-            </li>
+            <li>Home</li>
+            <li>Map</li>
+            <li>Students</li>
+            <li>About</li>
         </ul>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
