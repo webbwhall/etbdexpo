@@ -1,11 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #161616;
-    background-image: url(img/vhsglitch.jpg);
+    /* background-color: #161616; */
+    background-image: url(img/background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-color: #c1121f;
 }
 
 .navigationBar{
@@ -41,11 +42,62 @@ body{
 
 .navigationBar ul li:hover{
     cursor: pointer;
-    background-color: #FFFFFF;
-    color: #161616;
-    border: 0.1vh solid #161616;
+    background-color: #c1121f;
+    color: #FFFFFF;
+    border: 0.1vh solid #FFFFFF;
 }
-
+.welcome{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    margin-top: 40vh;
+    font-size: 4vh;
+    line-height: 5.5vh;
+}
+.welcome span{
+    font-size: 10vh;
+}
+.welcome .weMakeCoolStuff{
+    font-size: 2vh;
+    animation: 2s weMakeCoolStuff infinite;
+}
+@keyframes weMakeCoolStuff{
+    0%{
+        font-family: Arial, Helvetica, sans-serif'
+    }
+    10%{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    20%{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    30%{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    40%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    50%{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    60%{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    70%{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    80%{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    90%{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    100%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
 .introPopup{
     position: fixed;
     top: 0;
@@ -58,12 +110,15 @@ body{
     align-items: center;
     z-index: 999;
 }
-
+.navigationBar ul li.currentPage{
+    background-color: #c1121f;
+    color: #FFFFFF;
+}
 .popupBox{
     width: 40%;
     min-width: 300px;
     padding: 3vh;
-    background-color: #161616;
+    background-color: #c1121f;
     border: 0.2vh solid #FFFFFF;
     border-radius: 2vh;
     color: white;
@@ -95,7 +150,7 @@ body{
 .popupBox button{
     padding: 1vh 2vh;
     border: 0.1vh solid white;
-    background-color: transparent;
+    background-color: #c1121f;
     color: white;
     border-radius: 1vh;
     font-weight: bold;
