@@ -1,9 +1,13 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    background-color: #C1121F;
-    /* background-image: url(img/vhsglitch.jpg); */
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+    background-image: url(img/vhsglitch.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
+
 .navigationBar{
     position: absolute;
     width: 100%;
@@ -11,21 +15,21 @@ body{
     height: 8vh;
     top: 0;
 }
+
 .navigationBar ul{
-    margin-left: 0%;
-    padding-left: 0%;
+    margin-left: 0;
+    padding-left: 0;
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 4vh;
 }
+
 .navigationBar ul li{
     list-style: none;
-    margin-left: 0%;
     padding-left: 2%;
     padding-right: 2%;
-    /* background-color: #FFFFFF; */
     border-radius: 2vh;
     font-family: Arial, Helvetica, sans-serif;
     color: #C1121F;
@@ -34,9 +38,71 @@ body{
     font-weight: 800;
     background-color: #FFFFFF;
 }
+
 .navigationBar ul li:hover{
     cursor: pointer;
-    background-color: #C1121F;
-    color: #FFFFFF;
-    border: 0.1vh solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #161616;
+    border: 0.1vh solid #161616;
+}
+
+.introPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popupBox{
+    width: 40%;
+    min-width: 300px;
+    padding: 3vh;
+    background-color: #161616;
+    border: 0.2vh solid #FFFFFF;
+    border-radius: 2vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.popupBox h1{
+    margin-top: 0;
+    font-size: 3vh;
+}
+
+.popupBox p{
+    font-size: 1.8vh;
+    line-height: 1.5;
+}
+
+.popupBox ul{
+    text-align: left;
+    margin: 2vh auto;
+    width: 80%;
+}
+
+.popupBox li{
+    margin-bottom: 1vh;
+    font-size: 1.6vh;
+}
+
+.popupBox button{
+    padding: 1vh 2vh;
+    border: 0.1vh solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 1vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popupBox button:hover{
+    background-color: white;
+    color: #161616;
 }
