@@ -220,3 +220,222 @@
         width: 4.8%;
     }
 }
+.mapPage{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapHeader{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3vh;
+}
+
+.mapHeader h1{
+    margin-bottom: 1vh;
+    font-size: 4vh;
+}
+
+.mapHeader p{
+    margin-top: 0;
+    font-size: 2vh;
+}
+
+.floorButtons{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+
+.floorButton{
+    padding: 1vh 2vh;
+    border: 0.1vh solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #C1121F;
+    border-radius: 1vh;
+    font-weight: 800;
+    font-size: 1.8vh;
+    cursor: pointer;
+}
+
+.floorButton:hover{
+    background-color: #c1121f;
+    color: #FFFFFF;
+}
+
+.floorButton.active{
+    background-color: #c1121f;
+    color: #FFFFFF;
+}
+
+.mapWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapContainer{
+    display: none;
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    background-color: #FFFFFF;
+    border-radius: 1vh;
+    padding: 1.5vh;
+    box-sizing: border-box;
+}
+
+.mapContainer.activeMap{
+    display: block;
+}
+
+.floorMap{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5vh;
+}
+
+.mapPin{
+    position: absolute;
+    width: 3.2%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 0.3vh solid #000000;
+    background-color: #000000;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.mapPin::after{
+    content: '';
+    position: absolute;
+    width: 0.25vh;
+    height: 2.2vh;
+    background-color: #000000;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.mapPin::before{
+    content: '';
+    position: absolute;
+    width: 1.1vh;
+    height: 1.1vh;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mapPin:hover{
+    transform: translate(-50%, -50%) scale(1.08);
+}
+
+.pinOne{
+    left: 29.5%;
+    top: 34%;
+}
+
+.pinTwoA{
+    left: 43.5%;
+    top: 15.5%;
+}
+
+.pinTwoB{
+    left: 84%;
+    top: 54.5%;
+}
+
+.pinThreeA{
+    left: 27.5%;
+    top: 46%;
+}
+
+.pinThreeB{
+    left: 68.5%;
+    top: 82%;
+}
+
+.mapInfoPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.mapInfoPopup.hidden{
+    display: none;
+}
+
+.mapInfoBox{
+    position: relative;
+    width: 40%;
+    min-width: 300px;
+    max-width: 520px;
+    background-color: #FFFFFF;
+    color: #161616;
+    border-radius: 2vh;
+    padding: 3vh;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.mapInfoBox h2{
+    margin-top: 0;
+    color: #C1121F;
+    font-size: 3vh;
+}
+
+.mapInfoBox p{
+    font-size: 1.8vh;
+    line-height: 1.5;
+}
+
+.closeInfoButton{
+    position: absolute;
+    top: 1.2vh;
+    right: 1.2vh;
+    border: none;
+    background: none;
+    font-size: 2.5vh;
+    cursor: pointer;
+    color: #C1121F;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .mapPage{
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 11vh;
+    }
+
+    .mapHeader h1{
+        font-size: 3vh;
+    }
+
+    .mapHeader p{
+        font-size: 1.7vh;
+    }
+
+    .mapInfoBox{
+        width: 88%;
+    }
+
+    .mapPin{
+        width: 4.8%;
+    }
+}

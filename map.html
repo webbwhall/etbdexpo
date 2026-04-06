@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETBD Expo</title>
+    <title>ETBD Expo Map</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <div class="navigationBar">
         <ul>
-            <li onclick="pageLocation('index')">
-                Home
-            </li>
-            <li class="currentPage" onclick="pageLocation('map')">
-                Map
-            </li>
-            <li onclick="pageLocation('students')">
-                Students
-            </li>
-            <li onclick="pageLocation('about')">
-                About
-            </li>
+            <li onclick="pageLocation('index')">Home</li>
+            <li class="currentPage" onclick="pageLocation('map')">Map</li>
+            <li onclick="pageLocation('students')">Students</li>
+            <li onclick="pageLocation('about')">About</li>
         </ul>
     </div>
 
@@ -45,32 +35,29 @@
     <main class="mapPage">
         <div class="mapHeader">
             <h1>Explore McVey Hall</h1>
-            <p>Select a floor to view spaces and student locations.</p>
+            <p>Select a floor to view student locations and spaces.</p>
         </div>
 
         <div class="floorButtons">
-            <button class="floorButton active" onclick="switchFloor('first')">First Floor</button>
-            <button class="floorButton" onclick="switchFloor('second')">Second Floor</button>
-            <button class="floorButton" onclick="switchFloor('third')">Third Floor</button>
+            <button class="floorButton active" onclick="switchFloor('first', this)">First Floor</button>
+            <button class="floorButton" onclick="switchFloor('second', this)">Second Floor</button>
+            <button class="floorButton" onclick="switchFloor('third', this)">Third Floor</button>
         </div>
 
         <div class="mapWrapper">
             <div class="mapContainer activeMap" id="firstFloorMap">
-                <img src="firstfloor.png" alt="First floor map of McVey Hall" class="floorMap">
-
+                <img src="firstfloor.png" alt="First floor map" class="floorMap">
                 <button class="mapPin pinOne" onclick="openMapCard('xrStage')"></button>
             </div>
 
             <div class="mapContainer" id="secondFloorMap">
-                <img src="secondfloor.png" alt="Second floor map of McVey Hall" class="floorMap">
-
+                <img src="secondfloor.png" alt="Second floor map" class="floorMap">
                 <button class="mapPin pinTwoA" onclick="openMapCard('secondHall')"></button>
                 <button class="mapPin pinTwoB" onclick="openMapCard('studioSpace')"></button>
             </div>
 
             <div class="mapContainer" id="thirdFloorMap">
-                <img src="thirdfloor.png" alt="Third floor map of McVey Hall" class="floorMap">
-
+                <img src="thirdfloor.png" alt="Third floor map" class="floorMap">
                 <button class="mapPin pinThreeA" onclick="openMapCard('xrStageThird')"></button>
                 <button class="mapPin pinThreeB" onclick="openMapCard('projectArea')"></button>
             </div>
@@ -80,12 +67,11 @@
     <div class="mapInfoPopup hidden" id="mapInfoPopup">
         <div class="mapInfoBox">
             <button class="closeInfoButton" onclick="closeMapCard()">✕</button>
-            <h2 id="mapInfoTitle">Location Title</h2>
-            <p id="mapInfoDescription">Location description goes here.</p>
+            <h2 id="mapInfoTitle">Location</h2>
+            <p id="mapInfoDescription">Description</p>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>

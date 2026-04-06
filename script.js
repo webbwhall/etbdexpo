@@ -10,16 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-function clickedMe() {
-    let objectClicked = document.getElementById('clickable');
-    objectClicked.classList.add('purple');
-}
-
 function pageLocation(page) {
     window.location.href = page + ".html";
 }
 
-function switchFloor(floor) {
+function switchFloor(floor, buttonElement) {
     const maps = document.querySelectorAll(".mapContainer");
     const buttons = document.querySelectorAll(".floorButton");
 
@@ -33,42 +28,40 @@ function switchFloor(floor) {
 
     if (floor === "first") {
         document.getElementById("firstFloorMap").classList.add("activeMap");
-        buttons[0].classList.add("active");
     }
 
     if (floor === "second") {
         document.getElementById("secondFloorMap").classList.add("activeMap");
-        buttons[1].classList.add("active");
     }
 
     if (floor === "third") {
         document.getElementById("thirdFloorMap").classList.add("activeMap");
-        buttons[2].classList.add("active");
     }
 
+    buttonElement.classList.add("active");
     closeMapCard();
 }
 
 const mapLocations = {
     xrStage: {
         title: "XR Stage",
-        description: "This highlighted space marks the XR Stage area on the first floor. Use this to showcase immersive projects, demos, or featured student work."
+        description: "This first floor area highlights the XR Stage and featured immersive projects."
     },
     secondHall: {
         title: "Second Floor Hall Space",
-        description: "This second floor highlighted section can be used for a key hallway exhibit area, welcome zone, or featured project section."
+        description: "This second floor area can be used for showcase displays, welcome areas, or featured work."
     },
     studioSpace: {
         title: "Second Floor Studio Space",
-        description: "This marked room on the second floor can represent a student showcase room, project table area, or interactive media display."
+        description: "This room can represent a project room, studio display, or student exhibit area."
     },
     xrStageThird: {
         title: "Third Floor XR Stage",
-        description: "This third floor XR Stage marker points to another major showcase location. You can use this for expanded exhibits or special presentations."
+        description: "This third floor XR space can be used for expanded demos or major featured projects."
     },
     projectArea: {
         title: "Third Floor Project Area",
-        description: "This highlighted section can be used for individual student booths, capstone displays, or smaller presentation spaces."
+        description: "This highlighted space can be used for booths, capstone projects, or student presentations."
     }
 };
 
