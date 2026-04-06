@@ -95,3 +95,78 @@ function closeMapCard() {
         popup.classList.add("hidden");
     }
 }
+const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.carousel-btn.next');
+const prevButton = document.querySelector('.carousel-btn.prev');
+
+
+let currentIndex = 0;
+let startX = 0;
+let isDragging = false;
+
+
+
+
+function updateCarousel() {
+   const slideWidth = slides[0].getBoundingClientRect().width + 10; // include gap
+   track.style.transition = 'transform 0.4s ease-in-out';
+   track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+}
+
+
+
+
+nextButton.addEventListener('click', () => {
+   currentIndex = Math.min(currentIndex + 1, slides.length - 1);
+   updateCarousel();
+});
+
+
+prevButton.addEventListener('click', () => {
+   currentIndex = Math.max(currentIndex - 1, 0);
+   updateCarousel();
+});
+
+
+
+
+track.addEventListener('touchstart', e => {
+   startX = e.touches[0].clientX;
+   isDragging = true;
+   track.style.transition = 'none';
+});
+
+
+track.addEventListener('touchmove', e => {
+   if (!isDragging) return;
+   const deltaX = e.touches[0].clientX - startX;
+   const slideWidth = slides[0].getBoundingClientRect().width + 10;
+   track.style.transform = `translateX(${-currentIndex * slideWidth + -deltaX}px)`;
+});
+
+
+track.addEventListener('touchend', e => {
+   if (!isDragging) return;
+   isDragging = false;
+   const deltaX = e.changedTouches[0].clientX - startX;
+   const slideWidth = slides[0].getBoundingClientRect().width + 10;
+
+
+   if (deltaX < -50) {
+       currentIndex = Math.min(currentIndex + 1, slides.length - 1);
+   } else if (deltaX > 50) {
+       currentIndex = Math.max(currentIndex - 1, 0);
+   }
+   updateCarousel();
+});
+
+
+
+
+window.addEventListener('resize', updateCarousel);
+
+
+
+
+updateCarousel()

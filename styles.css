@@ -283,8 +283,8 @@ body{
     margin-left: 0vh;
 }
 .footer ul li img{
-    height: 4vh;
-
+        height: 4vh;
+}
 .mapPage{
     width: 90%;
     margin-left: 5%;
@@ -507,4 +507,86 @@ body{
     .popupBox{
         width: 88%;
     }
+}
+.about {
+   width: 90%;
+   max-width: 800px;
+   margin: 40px auto;
+   text-align: center;
+}
+
+
+.title {
+   font-size: 2em;
+   margin-bottom: 20px;
+}
+
+
+.information {
+   font-size: 1em;
+   line-height: 1.6;
+}
+
+
+
+
+.carousel-container {
+   position: relative;
+   overflow: hidden;
+   width: 90%;
+   max-width: 600px;        
+   margin: 40px auto;
+   background-color: #f0f0f0;
+   padding-bottom: 20px;
+   border-radius: 10px;
+}
+
+
+
+
+.carousel-track {
+   display: flex;
+   transition: transform 0.4s ease-in-out;
+   gap: 10px;                
+}
+
+
+
+
+.carousel-track img {
+   flex: 0 0 auto;           
+   width: 200px;              
+   aspect-ratio: 1 / 1;      
+   object-fit: cover;         
+   border-radius: 5px;
+}
+
+
+
+
+.carousel-btn {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   border: none;
+   padding: 10px 15px;
+   cursor: pointer;
+   border-radius: 50%;
+   font-size: 18px;
+   z-index: 10;
+}
+
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+
+
+
+@media screen and (max-width: 768px) {
+   .carousel-track img {
+       width: 120px;         
+   }
 }
