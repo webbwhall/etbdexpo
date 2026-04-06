@@ -439,3 +439,167 @@
         width: 4.8%;
     }
 }
+.mapPage{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapHeader{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3vh;
+}
+
+.mapHeader h1{
+    margin-bottom: 1vh;
+    font-size: 4vh;
+}
+
+.mapHeader p{
+    margin-top: 0;
+    font-size: 2vh;
+}
+
+.floorButtons{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-bottom: 3vh;
+}
+
+.floorButton{
+    padding: 1vh 2vh;
+    border: 0.1vh solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #C1121F;
+    border-radius: 1vh;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.floorButton.active{
+    background-color: #C1121F;
+    color: #FFFFFF;
+}
+
+.mapWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapContainer{
+    display: none;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+
+.mapContainer.activeMap{
+    display: block;
+}
+
+.floorMap{
+    width: 100%;
+    display: block;
+}
+
+.mapPin{
+    position: absolute;
+    width: 2.5%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.mapPin::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    background-color: black;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.mapPin::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pinOne{
+    left: 29%;
+    top: 34%;
+}
+
+.pinTwoA{
+    left: 43%;
+    top: 16%;
+}
+
+.pinTwoB{
+    left: 84%;
+    top: 55%;
+}
+
+.pinThreeA{
+    left: 27%;
+    top: 46%;
+}
+
+.pinThreeB{
+    left: 68%;
+    top: 82%;
+}
+
+.mapInfoPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.mapInfoPopup.hidden{
+    display: none;
+}
+
+.mapInfoBox{
+    width: 40%;
+    min-width: 300px;
+    background-color: white;
+    padding: 3vh;
+    border-radius: 2vh;
+    position: relative;
+}
+
+.closeInfoButton{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    border: none;
+    background: none;
+    font-size: 2vh;
+    cursor: pointer;
+}

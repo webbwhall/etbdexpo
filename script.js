@@ -1,5 +1,8 @@
 function closePopup() {
-    document.getElementById("introPopup").style.display = "none";
+    const popup = document.getElementById("introPopup");
+    if (popup) {
+        popup.style.display = "none";
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -45,23 +48,23 @@ function switchFloor(floor, buttonElement) {
 const mapLocations = {
     xrStage: {
         title: "XR Stage",
-        description: "This first floor area highlights the XR Stage and featured immersive projects."
+        description: "Featured immersive projects and student XR experiences."
     },
     secondHall: {
-        title: "Second Floor Hall Space",
-        description: "This second floor area can be used for showcase displays, welcome areas, or featured work."
+        title: "Second Floor Hall",
+        description: "A featured project showcase and welcome space."
     },
     studioSpace: {
-        title: "Second Floor Studio Space",
-        description: "This room can represent a project room, studio display, or student exhibit area."
+        title: "Studio Space",
+        description: "Student media and design projects displayed here."
     },
     xrStageThird: {
         title: "Third Floor XR Stage",
-        description: "This third floor XR space can be used for expanded demos or major featured projects."
+        description: "Expanded XR demonstrations and showcase projects."
     },
     projectArea: {
-        title: "Third Floor Project Area",
-        description: "This highlighted space can be used for booths, capstone projects, or student presentations."
+        title: "Project Area",
+        description: "Student booths and senior capstone displays."
     }
 };
 
@@ -77,5 +80,8 @@ function openMapCard(locationKey) {
 }
 
 function closeMapCard() {
-    document.getElementById("mapInfoPopup").classList.add("hidden");
+    const popup = document.getElementById("mapInfoPopup");
+    if (popup) {
+        popup.classList.add("hidden");
+    }
 }
