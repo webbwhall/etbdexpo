@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
     <div class="navigationBar">
         <ul>
             <li onclick="pageLocation('index')">
@@ -18,14 +17,15 @@
             <li class="currentPage" onclick="pageLocation('map')">
                 Map
             </li>
-            <li onclick = "pageLocation('students')">
+            <li onclick="pageLocation('students')">
                 Students
             </li>
-            <li onclick = "pageLocation('about')">
+            <li onclick="pageLocation('about')">
                 About
             </li>
         </ul>
     </div>
+
     <div class="introPopup" id="introPopup">
         <div class="popupBox">
             <h1>Welcome to the Map</h1>
@@ -41,6 +41,51 @@
             <button id="startButton">Start Exploring</button>
         </div>
     </div>
+
+    <main class="mapPage">
+        <div class="mapHeader">
+            <h1>Explore McVey Hall</h1>
+            <p>Select a floor to view spaces and student locations.</p>
+        </div>
+
+        <div class="floorButtons">
+            <button class="floorButton active" onclick="switchFloor('first')">First Floor</button>
+            <button class="floorButton" onclick="switchFloor('second')">Second Floor</button>
+            <button class="floorButton" onclick="switchFloor('third')">Third Floor</button>
+        </div>
+
+        <div class="mapWrapper">
+            <div class="mapContainer activeMap" id="firstFloorMap">
+                <img src="firstfloor.png" alt="First floor map of McVey Hall" class="floorMap">
+
+                <button class="mapPin pinOne" onclick="openMapCard('xrStage')"></button>
+            </div>
+
+            <div class="mapContainer" id="secondFloorMap">
+                <img src="secondfloor.png" alt="Second floor map of McVey Hall" class="floorMap">
+
+                <button class="mapPin pinTwoA" onclick="openMapCard('secondHall')"></button>
+                <button class="mapPin pinTwoB" onclick="openMapCard('studioSpace')"></button>
+            </div>
+
+            <div class="mapContainer" id="thirdFloorMap">
+                <img src="thirdfloor.png" alt="Third floor map of McVey Hall" class="floorMap">
+
+                <button class="mapPin pinThreeA" onclick="openMapCard('xrStageThird')"></button>
+                <button class="mapPin pinThreeB" onclick="openMapCard('projectArea')"></button>
+            </div>
+        </div>
+    </main>
+
+    <div class="mapInfoPopup hidden" id="mapInfoPopup">
+        <div class="mapInfoBox">
+            <button class="closeInfoButton" onclick="closeMapCard()">✕</button>
+            <h2 id="mapInfoTitle">Location Title</h2>
+            <p id="mapInfoDescription">Location description goes here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
