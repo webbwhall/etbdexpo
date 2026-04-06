@@ -41,7 +41,10 @@ function switchFloor(floor, buttonElement) {
         document.getElementById("thirdFloorMap").classList.add("activeMap");
     }
 
-    buttonElement.classList.add("active");
+    if (buttonElement) {
+        buttonElement.classList.add("active");
+    }
+
     closeMapCard();
 }
 
@@ -73,10 +76,11 @@ function openMapCard(locationKey) {
     const title = document.getElementById("mapInfoTitle");
     const description = document.getElementById("mapInfoDescription");
 
-    title.textContent = mapLocations[locationKey].title;
-    description.textContent = mapLocations[locationKey].description;
-
-    popup.classList.remove("hidden");
+    if (popup && title && description && mapLocations[locationKey]) {
+        title.textContent = mapLocations[locationKey].title;
+        description.textContent = mapLocations[locationKey].description;
+        popup.classList.remove("hidden");
+    }
 }
 
 function closeMapCard() {
