@@ -3,9 +3,9 @@ body{
     padding: 0;
     /* background-color: #161616; */
     background-image: url(img/background.png);
-    background-size: cover;
+    background-size: fill;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #c1121f;
 }
 
@@ -171,6 +171,7 @@ body{
     border-radius: 1vh;
     padding-bottom: 1vh;
     padding-top: 2vh;
+    margin-bottom: 10vh;
 }
 .search{
     background-color: #bababa;
@@ -249,4 +250,33 @@ body{
     background-color: #FFFFFF;
     width: fit-content;
     padding: 0.4vh;
+}
+.footerHolder{
+    width: 100%;
+    height: 8vh;
+    background-color: #c1121f50;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    margin-bottom: 2vh;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+}
+.footer ul{
+    width: 100%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0vh;
+    padding-left: 0vh;
+}
+.footer ul li{
+    list-style-type: none;
+    padding-left: 0vh;
+    margin-left: 0vh;
+}
+.footer ul li img{
+    height: 4vh;
 }

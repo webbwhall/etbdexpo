@@ -16,3 +16,9 @@ function clickedMe(){
 function pageLocation(page){
     window.location.href = page + ".html";
 }
+function goInstagram(){
+    window.open("https://www.instagram.com/miamioh_etbd/");
+}
+function goFacebook(){
+    window.open("https://www.facebook.com/MiamiOHETBD/");
+}
