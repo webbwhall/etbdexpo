@@ -161,3 +161,92 @@ body{
     background-color: white;
     color: #161616;
 }
+.students{
+    width: 80%;
+    margin-left: 10%;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10vh;
+    background-color: #FFFFFF;
+    border-radius: 1vh;
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+}
+.search{
+    background-color: #bababa;
+    width: 80%;
+    margin-left: 10%;
+    height: 2vh;
+    border-radius: 2vh;
+    color: #FFFFFF;
+    padding-left: 1vh;
+    margin-top: 1vh;
+}
+.students .title{
+    text-align: center;
+    font-weight: 800;
+}
+.studentList ul{
+    list-style-type: none;
+}
+.students .red::before{
+    content: '';
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    background-color: #f00000;
+    border-radius: 0.5vh;
+    margin-right: 0.5vh;
+}
+.students .orange::before{
+    content: '';
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    background-color: #f0a000;
+    border-radius: 0.5vh;
+    margin-right: 0.5vh;
+}
+.students .yellow::before{
+    content: '';
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    background-color: #efd126;
+    border-radius: 0.5vh;
+    margin-right: 0.5vh;
+}
+.students .green::before{
+    content: '';
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    background-color: #0bc52a;
+    border-radius: 0.5vh;
+    margin-right: 0.5vh;
+}
+.students .blue::before{
+    content: '';
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    background-color: #0f82cf;
+    border-radius: 0.5vh;
+    margin-right: 0.5vh;
+}
+.about{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 14vh;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about .title{
+    font-size: 4vh;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    color: #c1121f;
+    background-color: #FFFFFF;
+    width: fit-content;
+    padding: 0.4vh;
+}
