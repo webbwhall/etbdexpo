@@ -169,7 +169,18 @@ body{
     background-color: white;
     color: #161616;
 }
-
+.class .title{
+    font-size: 2vh;
+}
+.class{
+    /* background-color: #bababa; */
+    margin-top: 4vh;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 1vh;
+    border: 0.2vh solid #bababa;
+    margin-bottom: 1vh;
+}
 .students{
     width: 80%;
     margin-left: 10%;
@@ -513,6 +524,7 @@ body{
    max-width: 800px;
    margin: 40px auto;
    text-align: center;
+   margin-top: 14vh;
 }
 
 
