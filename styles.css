@@ -38,6 +38,8 @@ body{
     border: 0.1vh solid #ffffff;
     font-weight: 800;
     background-color: #ffffff;
+    transition: all 0.2s ease;
+
 }
 
 .navigationBar ul li:hover{
@@ -492,6 +494,21 @@ body{
     font-weight: bold;
 }
 
+.ctaButton{
+    margin-top: 3vh;
+    padding: 1.2vh 3vh;
+    background-color: #ffffff;
+    color: #c1121f;
+    font-weight: 800;
+    border-radius: 2vh;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: block;
+    width: fit-content;
+    margin: 3vh auto;
+}
+
 @media screen and (max-width: 768px){
     .mapPage{
         width: 96%;
@@ -602,3 +619,4 @@ body{
        width: 120px;         
    }
 }
+
