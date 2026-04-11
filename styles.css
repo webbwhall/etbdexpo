@@ -172,17 +172,30 @@ body{
     color: #161616;
 }
 .class .title{
-    font-size: 2vh;
-}
+    font-size: 2.2vh;
+    font-weight: 800;
+    color: #c1121f;
+    margin-bottom: 1vh;
+    padding-bottom: 0.5vh;
+    border-bottom: 0.2vh solid #f0f0f0;}
 .class{
     /* background-color: #bababa; */
-    margin-top: 4vh;
     width: 80%;
-    margin-left: 10%;
-    border-radius: 1vh;
-    border: 0.2vh solid #bababa;
-    margin-bottom: 1vh;
+    margin: 3vh auto;
+    padding: 2vh;
+    border-radius: 1.5vh;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    box-shadow: 0 0.5vh 1.5vh rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
 }
+
+.class:hover {
+    transform: translateY(-0.3vh);
+    box-shadow: 0 0.8vh 2vh rgba(0,0,0,0.12);
+}
+
 .students{
     width: 80%;
     margin-left: 10%;
@@ -194,24 +207,38 @@ body{
     padding-bottom: 1vh;
     padding-top: 2vh;
     margin-bottom: 10vh;
+    padding: 4vh 0;
+
 }
 
-.search{
-    background-color: #bababa;
+.search {
     width: 80%;
-    margin-left: 10%;
-    height: 2.5vh;
+    margin: 2vh auto;
+    padding: 1vh 1.5vh;
     border-radius: 2vh;
-    color: #ffffff;
-    padding-left: 1vh;
-    padding-top: 0.6vh;
-    margin-top: 1vh;
-    box-sizing: border-box;
+    background-color: #f3f3f3;
+    color: #888;
+    font-size: 1.6vh;
 }
 
 .students .title{
     text-align: center;
     font-weight: 800;
+}
+.studentList {
+    padding-left: 0;
+    margin: 0;
+}
+
+.studentList li {
+    padding: 0.8vh 1vh;
+    margin: 0.5vh 0;
+    border-radius: 0.8vh;
+    transition: background 0.2s ease;
+}
+
+.studentList li:hover {
+    background-color: #f7f7f7;
 }
 
 .studentList ul{
