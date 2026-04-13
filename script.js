@@ -175,16 +175,19 @@ document.addEventListener("DOMContentLoaded", function () {
     let popup = document.getElementById("introPopup");
     let startButton = document.getElementById("startButton");
 
-    // only run if popup exists on this page
     if (popup) {
-        if (localStorage.getItem("mapVisited") === "true") {
+        let hasVisitedMap = localStorage.getItem("hasVisitedMap");
+
+        if (hasVisitedMap === "true") {
             popup.style.display = "none";
+        } else {
+            localStorage.setItem("hasVisitedMap", "true");
+            popup.style.display = "flex";
         }
 
         if (startButton) {
             startButton.addEventListener("click", function () {
                 popup.style.display = "none";
-                localStorage.setItem("mapVisited", "true");
             });
         }
     }
