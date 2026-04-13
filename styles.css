@@ -213,12 +213,14 @@ body{
 
 .search {
     width: 80%;
-    margin: 2vh auto;
-    padding: 1vh 1.5vh;
+    /* margin: 2vh auto; */
+    padding: 2%;
     border-radius: 2vh;
     background-color: #f3f3f3;
     color: #888;
     font-size: 1.6vh;
+    border: 0px;
+    margin-left: 8%;
 }
 
 .students .title{

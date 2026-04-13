@@ -1,0 +1,132 @@
+{
+    "students": [
+        {
+            "name": "Jimmy",
+            "class": "IMS319",
+            "professor": "Eric Hodson",
+            "location": "Artist Alley",
+            "type": "UX",
+            "project": "ok"
+        },
+        {
+            "name": "John",
+            "class": "IMS461",
+            "professor": "Garrison LeMasters",
+            "location": "XR Stage",
+            "type": "Marketing",
+            "project": "ok"
+        },
+        {
+            "name": "Jackson",
+            "class": "IMS213",
+            "professor": "Tim Demarks",
+            "location": "Refreshments",
+            "type": "Coding",
+            "project": "ok"
+        },
+        {
+            "name": "Jerry",
+            "class": "IMS487",
+            "professor": "Anna Weisling",
+            "location": "Room203",
+            "type": "Games",
+            "project": "ok"
+        },
+        {
+            "name": "Jude",
+            "class": "IMS228",
+            "professor": "Jim Coyle",
+            "location": "Room160",
+            "type": "Design",
+            "project": "ok"
+        },
+        {
+            "name": "Jake",
+            "class": "IMS415",
+            "professor": "Molly Moran",
+            "location": "Artist Alley",
+            "type": "UX",
+            "project": "ok"
+        },
+        {
+            "name": "Johnathan",
+            "class": "IMS319",
+            "professor": "Eric Hodson",
+            "location": "XR Stage",
+            "type": "Marketing",
+            "project": "ok"
+        },
+        {
+            "name": "Julien",
+            "class": "IMS461",
+            "professor": "Garrison LeMasters",
+            "location": "Refreshments",
+            "type": "Coding",
+            "project": "ok"
+        },
+        {
+            "name": "Joan",
+            "class": "IMS213",
+            "professor": "Tim Demarks",
+            "location": "Room117",
+            "type": "Games",
+            "project": "ok"
+        },
+        {
+            "name": "Joseph",
+            "class": "IMS487",
+            "professor": "Anna Weisling",
+            "location": "Room074",
+            "type": "Design",
+            "project": "ok"
+        },
+        {
+            "name": "Jaxon (Wrong Spelling)",
+            "class": "IMS228",
+            "professor": "Jim Coyle",
+            "location": "Artist Alley",
+            "type": "UX",
+            "project": "ok"
+        },
+        {
+            "name": "Jerimiah",
+            "class": "IMS415",
+            "professor": "Molly Moran",
+            "location": "XR Stage",
+            "type": "Marketing",
+            "project": "ok"
+        },
+        {
+            "name": "Jiminny",
+            "class": "IMS319",
+            "professor": "Eric Hodson",
+            "location": "Refreshments",
+            "type": "Coding",
+            "project": "ok"
+        },
+        {
+            "name": "Jeffrey",
+            "class": "IMS461",
+            "professor": "Garrison LeMasters",
+            "location": "Room031",
+            "type": "Games",
+            "project": "ok"
+        },
+        {
+            "name": "James",
+            "class": "IMS213",
+            "professor": "Tim Demarks",
+            "location": "Room012",
+            "type": "Design",
+            "project": "ok"
+        },
+        {
+            "name": "Jim",
+            "class": "IMS487",
+            "professor": "Anna Weisling",
+            "location": "Artist Alley",
+            "type": "UX",
+            "project": "ok"
+        }
+    ]
+}

@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
     <div class="navigationBar">
         <ul>
             <li onclick="pageLocation('index')">
@@ -31,10 +30,14 @@
         <div class="title">
             Find Students by Class or Name
         </div>
-        <div class="search">
+        <!-- <div class="search">
             Search
+        </div> -->
+        <div class="searchBox">
+            <input type="text" id="search" placeholder="Search" class="search">
         </div>
-        <div class="studentList">
+        <div id="list"></div>
+        <!-- <div class="studentList">
             <div class="class">
                 <div class="title">IMS 430</div>
                 <ul class="studentList">
@@ -133,7 +136,7 @@
                     <li class="orange">Casey Nguyen — IMS518</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="footerHolder">
         <div class="footer">
@@ -147,6 +150,7 @@
             </ul>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -96,7 +96,7 @@ function closeMapCard() {
     }
 }
 const track = document.querySelector('.carousel-track');
-const slides = Array.from(track.children);
+// const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel-btn.next');
 const prevButton = document.querySelector('.carousel-btn.prev');
 
@@ -108,65 +108,155 @@ let isDragging = false;
 
 
 
-function updateCarousel() {
-   const slideWidth = slides[0].getBoundingClientRect().width + 10; // include gap
-   track.style.transition = 'transform 0.4s ease-in-out';
-   track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+// function updateCarousel() {
+//    const slideWidth = slides[0].getBoundingClientRect().width + 10; // include gap
+//    track.style.transition = 'transform 0.4s ease-in-out';
+//    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+// }
+
+
+
+
+// nextButton.addEventListener('click', () => {
+//    currentIndex = Math.min(currentIndex + 1, slides.length - 1);
+//    updateCarousel();
+// });
+
+
+// prevButton.addEventListener('click', () => {
+//    currentIndex = Math.max(currentIndex - 1, 0);
+//    updateCarousel();
+// });
+
+
+
+
+// track.addEventListener('touchstart', e => {
+//    startX = e.touches[0].clientX;
+//    isDragging = true;
+//    track.style.transition = 'none';
+// });
+
+
+// track.addEventListener('touchmove', e => {
+//    if (!isDragging) return;
+//    const deltaX = e.touches[0].clientX - startX;
+//    const slideWidth = slides[0].getBoundingClientRect().width + 10;
+//    track.style.transform = `translateX(${-currentIndex * slideWidth + -deltaX}px)`;
+// });
+
+
+// track.addEventListener('touchend', e => {
+//    if (!isDragging) return;
+//    isDragging = false;
+//    const deltaX = e.changedTouches[0].clientX - startX;
+//    const slideWidth = slides[0].getBoundingClientRect().width + 10;
+
+
+//    if (deltaX < -50) {
+//        currentIndex = Math.min(currentIndex + 1, slides.length - 1);
+//    } else if (deltaX > 50) {
+//        currentIndex = Math.max(currentIndex - 1, 0);
+//    }
+//    updateCarousel();
+// });
+
+
+
+
+// window.addEventListener('resize', updateCarousel);
+
+
+
+
+// updateCarousel()
+
+
+
+
+
+
+
+
+
+
+
+
+
+let allStudents = [];
+
+fetch("students.json")
+    .then(response => response.json())
+    .then(data => {
+        allStudents = data.students;
+
+        render(allStudents); // initial render
+    })
+    .catch(error => {
+        console.error("Error loading JSON:", error);
+    });
+//student search
+
+const list = document.getElementById("list");
+const searchInput = document.getElementById("search");
+
+// Render function
+function render(students) {
+    list.innerHTML = "";
+
+    // Group students by class
+    const grouped = {};
+
+    students.forEach(student => {
+        if (!grouped[student.class]) {
+            grouped[student.class] = [];
+        }
+        grouped[student.class].push(student);
+    });
+
+    // Create a section for each class
+    Object.keys(grouped).forEach(className => {
+        const classDiv = document.createElement("div");
+        classDiv.className = "class";
+
+        // Class title
+        const title = document.createElement("div");
+        title.textContent = className;
+        classDiv.appendChild(title);
+        title.className = "title";
+
+        // Students in that class
+        grouped[className].forEach(student => {
+            const div = document.createElement("div");
+            div.className = "student";
+
+            div.innerHTML = `
+                <div><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+
+            classDiv.appendChild(div);
+        });
+
+        list.appendChild(classDiv);
+    });
 }
 
+// Initial render
 
+// Search function
+searchInput.addEventListener("input", (e) => {
+    const value = e.target.value.toLowerCase();
 
+    const filtered = allStudents.filter(student =>
+        student.name.toLowerCase().includes(value) ||
+        student.class.toLowerCase().includes(value) ||
+        student.project.toLowerCase().includes(value) ||
+        student.location.toLowerCase().includes(value)
+    );
 
-nextButton.addEventListener('click', () => {
-   currentIndex = Math.min(currentIndex + 1, slides.length - 1);
-   updateCarousel();
+    render(filtered);
+    console.log('rendering');
 });
-
-
-prevButton.addEventListener('click', () => {
-   currentIndex = Math.max(currentIndex - 1, 0);
-   updateCarousel();
-});
-
-
-
-
-track.addEventListener('touchstart', e => {
-   startX = e.touches[0].clientX;
-   isDragging = true;
-   track.style.transition = 'none';
-});
-
-
-track.addEventListener('touchmove', e => {
-   if (!isDragging) return;
-   const deltaX = e.touches[0].clientX - startX;
-   const slideWidth = slides[0].getBoundingClientRect().width + 10;
-   track.style.transform = `translateX(${-currentIndex * slideWidth + -deltaX}px)`;
-});
-
-
-track.addEventListener('touchend', e => {
-   if (!isDragging) return;
-   isDragging = false;
-   const deltaX = e.changedTouches[0].clientX - startX;
-   const slideWidth = slides[0].getBoundingClientRect().width + 10;
-
-
-   if (deltaX < -50) {
-       currentIndex = Math.min(currentIndex + 1, slides.length - 1);
-   } else if (deltaX > 50) {
-       currentIndex = Math.max(currentIndex - 1, 0);
-   }
-   updateCarousel();
-});
-
-
-
-
-window.addEventListener('resize', updateCarousel);
-
-
-
-
-updateCarousel()
