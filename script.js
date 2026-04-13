@@ -175,14 +175,15 @@ window.onload = function () {
     let popup = document.getElementById("introPopup");
     let startButton = document.getElementById("startButton");
 
-    // hide popup if they already closed it before
+    // check if popup was already closed before
     if (localStorage.getItem("popupClosed") === "true") {
         popup.style.display = "none";
     }
 
-    // when button is clicked, hide and save state
     startButton.addEventListener("click", function () {
         popup.style.display = "none";
+
+        // save that it has been closed
         localStorage.setItem("popupClosed", "true");
     });
 };
