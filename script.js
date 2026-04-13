@@ -170,3 +170,19 @@ window.addEventListener('resize', updateCarousel);
 
 
 updateCarousel()
+
+window.onload = function () {
+    let popup = document.getElementById("introPopup");
+    let startButton = document.getElementById("startButton");
+
+    // hide popup if they already closed it before
+    if (localStorage.getItem("popupClosed") === "true") {
+        popup.style.display = "none";
+    }
+
+    // when button is clicked, hide and save state
+    startButton.addEventListener("click", function () {
+        popup.style.display = "none";
+        localStorage.setItem("popupClosed", "true");
+    });
+};
