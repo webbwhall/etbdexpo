@@ -171,19 +171,21 @@ window.addEventListener('resize', updateCarousel);
 
 updateCarousel()
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     let popup = document.getElementById("introPopup");
     let startButton = document.getElementById("startButton");
 
-    // check if popup was already closed before
-    if (localStorage.getItem("popupClosed") === "true") {
-        popup.style.display = "none";
+    // only run if popup exists on this page
+    if (popup) {
+        if (localStorage.getItem("mapVisited") === "true") {
+            popup.style.display = "none";
+        }
+
+        if (startButton) {
+            startButton.addEventListener("click", function () {
+                popup.style.display = "none";
+                localStorage.setItem("mapVisited", "true");
+            });
+        }
     }
-
-    startButton.addEventListener("click", function () {
-        popup.style.display = "none";
-
-        // save that it has been closed
-        localStorage.setItem("popupClosed", "true");
-    });
-};
+});
