@@ -320,6 +320,70 @@ body{
     text-align: left; 
 }
 
+.student .artistAlley::before{
+    background-color: #f0a000;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .xrStage::before{
+    background-color: #50de5c;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .refreshments::before{
+    background-color: #d958bf;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+
+.student .room203::before{
+    background-color: #f00004;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .artistAlley::before{
+    background-color: #f0a000;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .room160::before{
+    background-color: #1ec7ab;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .other::before{
+    background-color: #2a2a2a;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
 .about .title{
     font-size: 4vh;
     font-weight: 700;

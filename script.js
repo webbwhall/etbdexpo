@@ -230,13 +230,48 @@ function render(students) {
         grouped[className].forEach(student => {
             const div = document.createElement("div");
             div.className = "student";
-
+            if(student.location == "Artist Alley"){
             div.innerHTML = `
-                <div><strong>${student.name}</strong></div>
+                <div class="artistAlley"><strong>${student.name}</strong></div>
                 <div>Project: ${student.project}</div>
                 <div>Location: ${student.location}</div>
             `;
-
+            }
+            if(student.location == "XR Stage"){
+            div.innerHTML = `
+                <div class="xrStage"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
+            if(student.location == "Refreshments"){
+            div.innerHTML = `
+                <div class="refreshments"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
+            if(student.location == "Room203"){
+            div.innerHTML = `
+                <div class="room203"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
+            if(student.location == "Room160"){
+            div.innerHTML = `
+                <div class="room160"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
+            if(student.location == null){
+            div.innerHTML = `
+                <div class="other"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
             classDiv.appendChild(div);
         });
 
