@@ -1,57 +1,64 @@
 body{
     margin: 0;
-    padding: 0;
     background-image: url(img/background.png);
     background-size: fill;
     background-position: center;
     min-height: 100vh;
     background-color: #c1121f;
+    padding-top: 9vh;
+
 }
 
-.navigationBar{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    height: 8vh;
+.navigationBar {
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    width: 100%;
+    height: 6vh;
+    background-color: #f8f3ea;
+    border-bottom: 0.1vh solid #e5d8c7;
+    box-shadow: 0 0.4vh 1.2vh rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
+
 .navigationBar ul{
+    width: 90%;
+    max-width: 1000px;
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 8vh;
 }
 
 .navigationBar ul li{
     list-style: none;
-    padding: 0.8vh 2vh;
-    border-radius: 2vh;
+    padding: 0.8vh 1.5vh;
+    border-radius: 999px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #c1121f;
-    font-size: 2vh;
-    border: 0.1vh solid #ffffff;
-    font-weight: 800;
-    background-color: #ffffff;
+    font-size: 1.8vh;
+    font-weight: 700;
+    color: #8f1d22;
+    background: none;
+    border: none;
     transition: all 0.2s ease;
 
 }
 
 .navigationBar ul li:hover{
     cursor: pointer;
-    background-color: #c1121f;
-    color: #ffffff;
-    border: 0.1vh solid #ffffff;
+    background-color: rgba(193, 18, 31, 0.08);
+    color: #c1121f;
 }
 
 .navigationBar ul li.currentPage{
     background-color: #c1121f;
-    color: #ffffff;
+    color: #f8f3ea;
+    padding: 0.8vh 2vh;
 }
 
 .welcome{
@@ -157,20 +164,23 @@ body{
     font-size: 1.6vh;
 }
 
-.popupBox button{
+.popupBox button {
     padding: 1vh 2vh;
-    border: 0.1vh solid white;
-    background-color: #c1121f;
-    color: white;
+    border: 0.1vh solid #f8f3ea;
+    background-color: #f8f3ea;
+    color: #c1121f;
     border-radius: 1vh;
-    font-weight: bold;
+    font-weight: 800;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.popupBox button:hover{
-    background-color: white;
-    color: #161616;
+.popupBox button:hover {
+    background-color: #c1121f;
+    color: #f8f3ea;
+    border: 0.1vh solid #f8f3ea;
 }
+
 .class .title{
     font-size: 2.2vh;
     font-weight: 800;
@@ -184,7 +194,7 @@ body{
     margin: 3vh auto;
     padding: 2vh;
     border-radius: 1.5vh;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #eadfce;
     background-color: #ffffff;
     box-shadow: 0 0.5vh 1.5vh rgba(0,0,0,0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -202,7 +212,7 @@ body{
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10vh;
-    background-color: #ffffff;
+    background-color: #f8f3ea;
     border-radius: 1vh;
     padding-bottom: 1vh;
     padding-top: 2vh;
@@ -213,14 +223,25 @@ body{
 
 .search {
     width: 80%;
-    /* margin: 2vh auto; */
-    padding: 2%;
-    border-radius: 2vh;
-    background-color: #f3f3f3;
-    color: #888;
-    font-size: 1.6vh;
-    border: 0px;
     margin-left: 8%;
+    padding: 1.2vh 2vh;
+    border-radius: 999px;
+    background-color: #f8f3ea;
+    color: #8f1d22;
+    font-size: 1.6vh;
+    border: 0.1vh solid #eadfce;
+    box-shadow: inset 0 0.2vh 0.6vh rgba(0,0,0,0.04);
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.search:focus {
+    border-color: #c1121f;
+    box-shadow: 0 0 0 0.3vh rgba(193, 18, 31, 0.15);
+}
+
+.search {
+    cursor: text;
 }
 
 .students .title{
@@ -307,6 +328,8 @@ body{
     padding: 2vh 2.5vh;
     margin-bottom: 2vh;
     box-shadow: 0 0.5vh 1vh rgba(0,0,0,0.1);
+    border: 1px solid #eadfce;
+
 }
 
 .information, .section p{
@@ -376,9 +399,9 @@ body{
 
 .floorButton{
     padding: 1vh 2vh;
-    border: 0.1vh solid #ffffff;
-    background-color: #ffffff;
+    background-color: #f8f3ea;
     color: #c1121f;
+    border: 0.1vh solid #f8f3ea;
     border-radius: 1vh;
     font-weight: 800;
     font-size: 1.8vh;
@@ -492,11 +515,12 @@ body{
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    background-color: rgba(30, 20, 10, 0.55);
+
 }
 
 .mapInfoPopup.hidden{
@@ -508,7 +532,7 @@ body{
     width: 40%;
     min-width: 300px;
     max-width: 520px;
-    background-color: #ffffff;
+    background-color: #f8f3ea;
     color: #161616;
     border-radius: 2vh;
     padding: 3vh;
@@ -542,8 +566,9 @@ body{
 .ctaButton{
     margin-top: 3vh;
     padding: 1.2vh 3vh;
-    background-color: #ffffff;
+    background-color: #f8f3ea;
     color: #c1121f;
+    border: 0.1vh solid #f8f3ea;
     font-weight: 800;
     border-radius: 2vh;
     font-size: 2vh;
@@ -638,6 +663,8 @@ body{
     border-radius: 1vh;
     padding: 2vh;
     box-sizing: border-box;
+    border: 1px solid #eadfce;
+
 }
 
 .aboutCard{
@@ -652,15 +679,15 @@ body{
     margin-bottom: 10vh;
     text-align: center;
     padding: 1vh 2vh;
-    background-color: #ffffff;
+    background-color: #f8f3ea;
     color: #c1121f;
+    border: 0.1vh solid #f8f3ea;
     border-radius: 1vh;
     font-weight: 800;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    border: 0.1vh solid #ffffff;
 }
 
 .aboutCTA:hover{
@@ -747,5 +774,6 @@ body{
        width: 120px;         
    }
 }
+
 
 
