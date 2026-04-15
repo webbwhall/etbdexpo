@@ -280,3 +280,13 @@ if (searchInput) {
         console.log("rendering");
     });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const elems = document.querySelectorAll('.carousel');
+
+    M.Carousel.init(elems, {
+        numVisible: 3,
+        padding: 20,
+        indicators: true
+    });
+});

@@ -2,25 +2,24 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-32Y0ZCCJEY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-32Y0ZCCJEY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-32Y0ZCCJEY');
-</script>
-    
+        gtag('config', 'G-32Y0ZCCJEY');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About | ETBD Expo</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
-    <script src="script.js"></script>
     <div class="navigationBar">
         <ul>
             <li onclick="pageLocation('index')">
@@ -38,63 +37,64 @@
         </ul>
     </div>
 
-<div class="aboutPage">
-    
-<div class="aboutImage">
-    <img src="img/ETBD Collage.png" alt="ETBD Expo Collage">
-</div>
+    <div class="aboutPage">
 
-    <div class="aboutHeader">
-        <h1>What is the ETBD Expo?</h1>
-        <p>Explore the creativity and innovation of ETBD students</p>
-    </div>
-
-    <div class="aboutContainer">
-
-        <div class="aboutCard">
-            <p>
-                The Emerging Technology in Business + Design and Games + Simulation majors blend creativity, design, storytelling, and digital tools to prepare students for careers in digital marketing, content creation, UX/UI design, game development, and immersive media.
-            </p>
+        <div class="aboutImage">
+            <img src="img/ETBD Collage.png" alt="ETBD Expo Collage">
         </div>
 
-        <div class="aboutCard">
-            <p>
-                The ETBD Expo showcases semester-long student projects across these areas, highlighting both the diversity of the program and the talent of its students.
-            </p>
+        <div class="aboutHeader">
+            <h1>What is the ETBD Expo?</h1>
+            <p>Explore the creativity and innovation of ETBD students</p>
+        </div>
+
+        <div class="aboutContainer">
+            <div class="aboutCard">
+                <p>
+                    The Emerging Technology in Business + Design and Games + Simulation majors blend creativity, design, storytelling, and digital tools to prepare students for careers in digital marketing, content creation, UX/UI design, game development, and immersive media.
+                </p>
+            </div>
+
+            <div class="aboutCard">
+                <p>
+                    The ETBD Expo showcases semester-long student projects across these areas, highlighting both the diversity of the program and the talent of its students.
+                </p>
+            </div>
+        </div>
+
+        <div class="aboutCTA" onclick="pageLocation('map')">
+            Explore the Map →
+        </div>
+
+        <div class="container">
+            <div class="carousel">
+                <a class="carousel-item"><img src="img/EXPO1.jpg" alt="Expo image 1"></a>
+                <a class="carousel-item"><img src="img/EXPO2.jpg" alt="Expo image 2"></a>
+                <a class="carousel-item"><img src="img/EXPO3.jpg" alt="Expo image 3"></a>
+                <a class="carousel-item"><img src="img/EXPO4.jpg" alt="Expo image 4"></a>
+                <a class="carousel-item"><img src="img/EXPO5.jpg" alt="Expo image 5"></a>
+                <a class="carousel-item"><img src="img/EXPO6.jpg" alt="Expo image 6"></a>
+                <a class="carousel-item"><img src="img/EXPO7.jpg" alt="Expo image 7"></a>
+            </div>
         </div>
 
     </div>
 
-    <div class="aboutCTA" onclick="pageLocation('map')">
-        Explore the Map →
-    </div>
-
-</div>
-</div>
-    </div>
     <div class="footerHolder">
         <div class="footer">
             <ul>
                 <li onclick="goInstagram()">
-                    <img src="img/instagram.png">
+                    <img src="img/instagram.png" alt="Instagram">
                 </li>
                 <li onclick="goFacebook()">
-                    <img src="img/facebook.png">
+                    <img src="img/facebook.png" alt="Facebook">
                 </li>
             </ul>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </body>
-<!-- <div class="carousel-container">
-   <div class="carousel-track">
-       <img src="img/EXPO1.jpg" alt="Image 1">
-       <img src="img/EXPO2.jpg" alt="Image 2">
-       <img src="img/EXPO3.jpg" alt="Image 3">
-
-
-   </div>
-   <button class="carousel-btn prev">&lt;</button>
-   <button class="carousel-btn next">&gt;</button>
-</div> -->
 
 </html>
