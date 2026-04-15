@@ -1,79 +1,95 @@
-function closePopup() {
-    const popup = document.getElementById("introPopup");
-    if (popup) {
-        popup.style.display = "none";
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    const startButton = document.getElementById("startButton");
-
-    if (startButton) {
-        startButton.addEventListener("click", closePopup);
-    }
-});
-
 function pageLocation(page) {
     window.location.href = page + ".html";
 }
+
 function goInstagram(){
     window.open("https://www.instagram.com/miamioh_etbd/");
 }
+
 function goFacebook(){
     window.open("https://www.facebook.com/MiamiOHETBD/");
 }
 
-function switchFloor(floor, buttonElement) {
-    const maps = document.querySelectorAll(".mapContainer");
-    const buttons = document.querySelectorAll(".floorButton");
-
-    maps.forEach(function (map) {
-        map.classList.remove("activeMap");
-    });
-
-    buttons.forEach(function (button) {
-        button.classList.remove("active");
-    });
-
-    if (floor === "first") {
-        document.getElementById("firstFloorMap").classList.add("activeMap");
-    }
-
-    if (floor === "second") {
-        document.getElementById("secondFloorMap").classList.add("activeMap");
-    }
-
-    if (floor === "third") {
-        document.getElementById("thirdFloorMap").classList.add("activeMap");
-    }
-
-    if (buttonElement) {
-        buttonElement.classList.add("active");
-    }
-
-    closeMapCard();
-}
-
 const mapLocations = {
-    xrStage: {
-        title: "XR Stage",
-        description: "Featured immersive projects and student XR experiences."
+    annas228: {
+        title: "Anna's IMS 228",
+        description: "Anna's IMS 228 area on the first floor."
     },
-    secondHall: {
-        title: "Second Floor Hall",
-        description: "A featured project showcase and welcome space."
+    hallwayWest: {
+        title: "First Floor Hallway",
+        description: "Wayfinding point along the west side of the first floor."
     },
-    studioSpace: {
-        title: "Studio Space",
-        description: "Student media and design projects displayed here."
+    adams228: {
+        title: "Adam's IMS 228",
+        description: "Adam's IMS 228 location near the center of the first floor."
     },
-    xrStageThird: {
-        title: "Third Floor XR Stage",
-        description: "Expanded XR demonstrations and showcase projects."
+    welcomeTableFirst: {
+        title: "Welcome Table",
+        description: "Main welcome table for check-in and directions."
     },
-    projectArea: {
-        title: "Project Area",
-        description: "Student booths and senior capstone displays."
+    ims452: {
+        title: "IMS 452",
+        description: "Senior project and showcase space for IMS 452."
+    },
+    ims489: {
+        title: "IMS 489",
+        description: "IMS 489 presentation and exhibit area."
+    },
+    ims440430: {
+        title: "IMS 440 + IMS 430",
+        description: "Shared room for IMS 440 and IMS 430 projects."
+    },
+    ims375: {
+        title: "IMS 375",
+        description: "IMS 375 exhibit location."
+    },
+    activityFirst: {
+        title: "Activity Area",
+        description: "Interactive activity area on the first floor."
+    },
+    bvk228: {
+        title: "BVK's IMS 228",
+        description: "BVK's IMS 228 project area."
+    },
+    hallwayLowerFirst: {
+        title: "Lower First Floor Hallway",
+        description: "Wayfinding point along the lower first floor hallway."
+    },
+    ims317: {
+        title: "IMS 317",
+        description: "IMS 317 showcase area on the second floor."
+    },
+    artistAlleyTop: {
+        title: "Artist Alley",
+        description: "Upper Artist Alley area with student work and tables."
+    },
+    foodDrinks: {
+        title: "Food / Drinks",
+        description: "Refreshments area near the second floor center."
+    },
+    artistAlley: {
+        title: "Artist Alley",
+        description: "Main Artist Alley space on the second floor."
+    },
+    ims461: {
+        title: "IMS 461",
+        description: "IMS 461 project and exhibit room."
+    },
+    ims213: {
+        title: "IMS 213",
+        description: "IMS 213 location with flexible table options nearby."
+    },
+    seatingGoodies: {
+        title: "Seating / Goodies",
+        description: "Small seating and goodies area on the second floor."
+    },
+    activity204: {
+        title: "Activity 204",
+        description: "Activity space connected to room 204."
+    },
+    ims487: {
+        title: "IMS 487",
+        description: "IMS 487 presentation and exhibit room."
     }
 };
 
@@ -95,19 +111,15 @@ function closeMapCard() {
         popup.classList.add("hidden");
     }
 }
+
 const track = document.querySelector('.carousel-track');
 // const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel-btn.next');
 const prevButton = document.querySelector('.carousel-btn.prev');
 
-
 let currentIndex = 0;
 let startX = 0;
 let isDragging = false;
-
-
-
-
 
 // function updateCarousel() {
 //    const slideWidth = slides[0].getBoundingClientRect().width + 10; // include gap
@@ -115,29 +127,21 @@ let isDragging = false;
 //    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
 // }
 
-
-
-
 // nextButton.addEventListener('click', () => {
 //    currentIndex = Math.min(currentIndex + 1, slides.length - 1);
 //    updateCarousel();
 // });
-
 
 // prevButton.addEventListener('click', () => {
 //    currentIndex = Math.max(currentIndex - 1, 0);
 //    updateCarousel();
 // });
 
-
-
-
 // track.addEventListener('touchstart', e => {
 //    startX = e.touches[0].clientX;
 //    isDragging = true;
 //    track.style.transition = 'none';
 // });
-
 
 // track.addEventListener('touchmove', e => {
 //    if (!isDragging) return;
@@ -146,13 +150,11 @@ let isDragging = false;
 //    track.style.transform = `translateX(${-currentIndex * slideWidth + -deltaX}px)`;
 // });
 
-
 // track.addEventListener('touchend', e => {
 //    if (!isDragging) return;
 //    isDragging = false;
 //    const deltaX = e.changedTouches[0].clientX - startX;
 //    const slideWidth = slides[0].getBoundingClientRect().width + 10;
-
 
 //    if (deltaX < -50) {
 //        currentIndex = Math.min(currentIndex + 1, slides.length - 1);
@@ -162,27 +164,9 @@ let isDragging = false;
 //    updateCarousel();
 // });
 
-
-
-
 // window.addEventListener('resize', updateCarousel);
 
-
-
-
 // updateCarousel()
-
-
-
-
-
-
-
-
-
-
-
-
 
 let allStudents = [];
 
@@ -191,21 +175,26 @@ fetch("students.json")
     .then(data => {
         allStudents = data.students;
 
-        render(allStudents); // initial render
+        if (document.getElementById("list")) {
+            render(allStudents);
+        }
     })
     .catch(error => {
         console.error("Error loading JSON:", error);
     });
-//student search
 
+// student search
 const list = document.getElementById("list");
 const searchInput = document.getElementById("search");
 
 // Render function
 function render(students) {
+    if (!list) {
+        return;
+    }
+
     list.innerHTML = "";
 
-    // Group students by class
     const grouped = {};
 
     students.forEach(student => {
@@ -215,18 +204,15 @@ function render(students) {
         grouped[student.class].push(student);
     });
 
-    // Create a section for each class
     Object.keys(grouped).forEach(className => {
         const classDiv = document.createElement("div");
         classDiv.className = "class";
 
-        // Class title
         const title = document.createElement("div");
         title.textContent = className;
-        classDiv.appendChild(title);
         title.className = "title";
+        classDiv.appendChild(title);
 
-        // Students in that class
         grouped[className].forEach(student => {
             const div = document.createElement("div");
             div.className = "student";
@@ -279,19 +265,18 @@ function render(students) {
     });
 }
 
-// Initial render
+if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+        const value = e.target.value.toLowerCase();
 
-// Search function
-searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.toLowerCase();
+        const filtered = allStudents.filter(student =>
+            student.name.toLowerCase().includes(value) ||
+            student.class.toLowerCase().includes(value) ||
+            student.project.toLowerCase().includes(value) ||
+            student.location.toLowerCase().includes(value)
+        );
 
-    const filtered = allStudents.filter(student =>
-        student.name.toLowerCase().includes(value) ||
-        student.class.toLowerCase().includes(value) ||
-        student.project.toLowerCase().includes(value) ||
-        student.location.toLowerCase().includes(value)
-    );
-
-    render(filtered);
-    console.log('rendering');
-});
+        render(filtered);
+        console.log("rendering");
+    });
+}

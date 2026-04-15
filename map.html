@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-32Y0ZCCJEY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,7 +10,7 @@
 
   gtag('config', 'G-32Y0ZCCJEY');
 </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ETBD Expo Map</title>
@@ -27,63 +26,36 @@
         </ul>
     </div>
 
-    <div class="introPopup" id="introPopup">
-        <div class="popupBox">
-            <h1>Welcome to the Map</h1>
-            <p>
-                Use the interactive map to explore McVey,
-                student locations, and key spaces.
-            </p>
-            <ul>
-                <li>Click map markers to view details.</li>
-                <li>Use the top navigation to switch pages.</li>
-                <li>Return home anytime from the menu.</li>
-            </ul>
-            <button id="startButton">Start Exploring</button>
-        </div>
-    </div>
-    <div class="footerHolder">
-        <div class="footer">
-            <ul>
-                <li onclick="goInstagram()">
-                    <img src="img/instagram.png">
-                </li>
-                <li onclick="goFacebook()">
-                    <img src="img/facebook.png">
-                </li>
-            </ul>
-        </div>
-    </div>
-</body>
-
     <main class="mapPage">
         <div class="mapHeader">
             <h1>Explore McVey Hall</h1>
-            <p>Select a floor to view student locations and spaces.</p>
-        </div>
-
-        <div class="floorButtons">
-            <button class="floorButton active" onclick="switchFloor('first', this)">First Floor</button>
-            <button class="floorButton" onclick="switchFloor('second', this)">Second Floor</button>
-            <button class="floorButton" onclick="switchFloor('third', this)">Third Floor</button>
+            <p>Click a marker to view student locations and spaces.</p>
         </div>
 
         <div class="mapWrapper">
-            <div class="mapContainer activeMap" id="firstFloorMap">
-                <img src="img/firstfloor.png" alt="First floor map" class="floorMap">
-                <button class="mapPin pinOne" onclick="openMapCard('xrStage')"></button>
-            </div>
+            <div class="mapContainer activeMap" id="expoMap">
+                <img src="img/expo-map.png" alt="ETBD Expo map" class="floorMap">
 
-            <div class="mapContainer" id="secondFloorMap">
-                <img src="img/secondfloor.png" alt="Second floor map" class="floorMap">
-                <button class="mapPin pinTwoA" onclick="openMapCard('secondHall')"></button>
-                <button class="mapPin pinTwoB" onclick="openMapCard('studioSpace')"></button>
-            </div>
-
-            <div class="mapContainer" id="thirdFloorMap">
-                <img src="img/thirdfloor.png" alt="Third floor map" class="floorMap">
-                <button class="mapPin pinThreeA" onclick="openMapCard('xrStageThird')"></button>
-                <button class="mapPin pinThreeB" onclick="openMapCard('projectArea')"></button>
+                <button class="mapPin pin1" onclick="openMapCard('annas228')"></button>
+                <button class="mapPin pin2" onclick="openMapCard('hallwayWest')"></button>
+                <button class="mapPin pin3" onclick="openMapCard('adams228')"></button>
+                <button class="mapPin pin4" onclick="openMapCard('welcomeTableFirst')"></button>
+                <button class="mapPin pin5" onclick="openMapCard('ims452')"></button>
+                <button class="mapPin pin6" onclick="openMapCard('ims489')"></button>
+                <button class="mapPin pin7" onclick="openMapCard('ims440430')"></button>
+                <button class="mapPin pin8" onclick="openMapCard('ims375')"></button>
+                <button class="mapPin pin9" onclick="openMapCard('activityFirst')"></button>
+                <button class="mapPin pin10" onclick="openMapCard('bvk228')"></button>
+                <button class="mapPin pin11" onclick="openMapCard('hallwayLowerFirst')"></button>
+                <button class="mapPin pin12" onclick="openMapCard('ims317')"></button>
+                <button class="mapPin pin13" onclick="openMapCard('artistAlleyTop')"></button>
+                <button class="mapPin pin14" onclick="openMapCard('foodDrinks')"></button>
+                <button class="mapPin pin15" onclick="openMapCard('artistAlley')"></button>
+                <button class="mapPin pin16" onclick="openMapCard('ims461')"></button>
+                <button class="mapPin pin17" onclick="openMapCard('ims213')"></button>
+                <button class="mapPin pin18" onclick="openMapCard('seatingGoodies')"></button>
+                <button class="mapPin pin19" onclick="openMapCard('activity204')"></button>
+                <button class="mapPin pin20" onclick="openMapCard('ims487')"></button>
             </div>
         </div>
     </main>
@@ -93,6 +65,19 @@
             <button class="closeInfoButton" onclick="closeMapCard()">✕</button>
             <h2 id="mapInfoTitle">Location</h2>
             <p id="mapInfoDescription">Description</p>
+        </div>
+    </div>
+
+    <div class="footerHolder">
+        <div class="footer">
+            <ul>
+                <li onclick="goInstagram()">
+                    <img src="img/instagram.png" alt="Instagram">
+                </li>
+                <li onclick="goFacebook()">
+                    <img src="img/facebook.png" alt="Facebook">
+                </li>
+            </ul>
         </div>
     </div>
 
