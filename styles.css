@@ -723,7 +723,7 @@ body{
 }
 
 .carousel .indicators {
-    bottom: -35px !important;
+    bottom: 10px !important;
 }
 
 .carousel .indicators .indicator-item {
@@ -731,7 +731,7 @@ body{
 }
 
 .footerHolder {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .carousel-btn {
@@ -789,7 +789,7 @@ body{
 .carousel {
     height: 320px !important;
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .carousel .carousel-item {
