@@ -491,43 +491,38 @@ body{
 
 .mapPin{
     position: absolute;
-    width: 1.45%;
+    width: 1.8%;
     min-width: 16px;
-    max-width: 26px;
+    max-width: 24px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 0.22vw solid #ffffff;
+    border: 0.18vw solid #ffffff;
     background-color: #ff1d1d;
     cursor: pointer;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 0.12vw rgba(0,0,0,0.15);
+    box-shadow: 0 0 0 0.15vw rgba(0,0,0,0.2);
     z-index: 5;
 }
 
 .mapPin:hover{
-    transform: translate(-50%, -50%) scale(1.12);
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
-.pin1{ left: 21.26%; top: 13.71%; }
-.pin2{ left: 18.79%; top: 18.44%; }
-.pin3{ left: 40.89%; top: 17.88%; }
-.pin4{ left: 47.68%; top: 13.43%; }
-.pin5{ left: 61.08%; top: 13.71%; }
-.pin6{ left: 83.64%; top: 14.37%; }
-.pin7{ left: 80.52%; top: 20.94%; }
-.pin8{ left: 43.65%; top: 33.38%; }
-.pin9{ left: 42.45%; top: 44.24%; }
-.pin10{ left: 51.17%; top: 43.40%; }
-.pin11{ left: 23.61%; top: 48.33%; }
-.pin12{ left: 46.68%; top: 66.03%; }
-.pin13{ left: 52.82%; top: 68.08%; }
-.pin14{ left: 50.58%; top: 72.16%; }
-.pin15{ left: 55.57%; top: 84.40%; }
-.pin16{ left: 22.36%; top: 88.40%; }
-.pin17{ left: 46.68%; top: 93.04%; }
-.pin18{ left: 33.83%; top: 94.15%; }
-.pin19{ left: 42.63%; top: 96.20%; }
-.pin20{ left: 60.06%; top: 94.43%; }
+.pin1{ left: 21.7%; top: 13.8%; }   /* Anna's IMS 228 */
+.pin2{ left: 47.8%; top: 13.5%; }   /* Welcome Table */
+.pin3{ left: 61.2%; top: 13.4%; }   /* IMS 452 */
+.pin4{ left: 83.4%; top: 14.3%; }   /* IMS 489 */
+.pin5{ left: 80.2%; top: 20.9%; }   /* IMS 440 + IMS 430 */
+.pin6{ left: 42.6%; top: 44.1%; }   /* Activity */
+.pin7{ left: 52.0%; top: 43.4%; }   /* BVK's IMS 228 */
+.pin8{ left: 46.9%; top: 66.0%; }   /* IMS 317 */
+.pin9{ left: 55.2%; top: 84.2%; }   /* Artist Alley */
+.pin10{ left: 20.4%; top: 88.5%; }  /* IMS 461 */
+.pin11{ left: 43.3%; top: 93.8%; }  /* IMS 213 */
+.pin12{ left: 24.8%; top: 94.7%; }  /* Seating / Goodies */
+.pin13{ left: 42.5%; top: 98.2%; }  /* Activity 204 */
+.pin14{ left: 60.6%; top: 96.5%; }  /* IMS 487 */
+.pin15{ left: 47.2%; top: 69.7%; }  /* Food / Drinks */
 
 .mapInfoPopup{
     position: fixed;

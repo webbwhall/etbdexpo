@@ -13,83 +13,63 @@ function goFacebook(){
 const mapLocations = {
     annas228: {
         title: "Anna's IMS 228",
-        description: "Anna's IMS 228 area on the first floor."
+        description: "Anna's IMS 228 showcase space."
     },
-    hallwayWest: {
-        title: "First Floor Hallway",
-        description: "Wayfinding point along the west side of the first floor."
-    },
-    adams228: {
-        title: "Adam's IMS 228",
-        description: "Adam's IMS 228 location near the center of the first floor."
-    },
-    welcomeTableFirst: {
+    welcomeTable: {
         title: "Welcome Table",
-        description: "Main welcome table for check-in and directions."
+        description: "Main welcome and check-in table."
     },
     ims452: {
         title: "IMS 452",
-        description: "Senior project and showcase space for IMS 452."
+        description: "IMS 452 student project showcase."
     },
     ims489: {
         title: "IMS 489",
-        description: "IMS 489 presentation and exhibit area."
+        description: "IMS 489 presentation area."
     },
     ims440430: {
         title: "IMS 440 + IMS 430",
         description: "Shared room for IMS 440 and IMS 430 projects."
     },
-    ims375: {
-        title: "IMS 375",
-        description: "IMS 375 exhibit location."
-    },
     activityFirst: {
-        title: "Activity Area",
+        title: "Activity",
         description: "Interactive activity area on the first floor."
     },
-    bvk228: {
+    bvks228: {
         title: "BVK's IMS 228",
         description: "BVK's IMS 228 project area."
     },
-    hallwayLowerFirst: {
-        title: "Lower First Floor Hallway",
-        description: "Wayfinding point along the lower first floor hallway."
-    },
     ims317: {
         title: "IMS 317",
-        description: "IMS 317 showcase area on the second floor."
-    },
-    artistAlleyTop: {
-        title: "Artist Alley",
-        description: "Upper Artist Alley area with student work and tables."
-    },
-    foodDrinks: {
-        title: "Food / Drinks",
-        description: "Refreshments area near the second floor center."
+        description: "IMS 317 presentation area on the second floor."
     },
     artistAlley: {
         title: "Artist Alley",
-        description: "Main Artist Alley space on the second floor."
+        description: "Artist Alley with featured student work and tables."
     },
     ims461: {
         title: "IMS 461",
-        description: "IMS 461 project and exhibit room."
+        description: "IMS 461 project showcase room."
     },
     ims213: {
         title: "IMS 213",
-        description: "IMS 213 location with flexible table options nearby."
+        description: "IMS 213 display area."
     },
     seatingGoodies: {
         title: "Seating / Goodies",
-        description: "Small seating and goodies area on the second floor."
+        description: "Small seating and goodies area."
     },
     activity204: {
         title: "Activity 204",
-        description: "Activity space connected to room 204."
+        description: "Interactive activity space near room 204."
     },
     ims487: {
         title: "IMS 487",
-        description: "IMS 487 presentation and exhibit room."
+        description: "IMS 487 project and presentation space."
+    },
+    foodDrinks: {
+        title: "Food / Drinks",
+        description: "Food and drinks station."
     }
 };
 
