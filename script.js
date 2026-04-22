@@ -10,25 +10,26 @@ function goFacebook(){
     window.open("https://www.facebook.com/MiamiOHETBD/");
 }
 
-const mapLocations = {
-    annas228: {
-        title: "Anna's IMS 228",
-        description: "Anna's IMS 228 showcase space."
-    },
-    welcomeTable: {
-        title: "Welcome Table",
-        description: "Main welcome and check-in table."
-    },
-    ims452: {
-        title: "IMS 452",
-        description: "IMS 452 student project showcase."
-    },
-    ims489: {
-        title: "IMS 489",
-        description: "IMS 489 presentation area."
-    },
-    ims440430: {
-        title: "IMS 440 + IMS 430",
+/* 
+// const mapLocations = {
+//    annas228: {
+//        title: "Anna's IMS 228",
+//        description: "Anna's IMS 228 showcase space."
+//   },
+//    welcomeTable: {
+//        title: "Welcome Table",
+//        description: "Main welcome and check-in table."
+  //  },
+    //ims452: {
+      //  title: "IMS 452",
+        //description: "IMS 452 student project showcase."
+    //},
+    //ims489: {
+      //  title: "IMS 489",
+        //description: "IMS 489 presentation area."
+    //},
+    //ims440430: {
+      //  title: "IMS 440 + IMS 430",
         description: "Shared room for IMS 440 and IMS 430 projects."
     },
     activityFirst: {
@@ -71,8 +72,10 @@ const mapLocations = {
         title: "Food / Drinks",
         description: "Food and drinks station."
     }
-};
+//   };
+*/
 
+/* Map pin system - disabled
 function openMapCard(locationKey) {
     const popup = document.getElementById("mapInfoPopup");
     const title = document.getElementById("mapInfoTitle");
@@ -84,13 +87,16 @@ function openMapCard(locationKey) {
         popup.classList.remove("hidden");
     }
 }
+*/
 
+/* 
 function closeMapCard() {
     const popup = document.getElementById("mapInfoPopup");
     if (popup) {
         popup.classList.add("hidden");
     }
 }
+*/
 
 const track = document.querySelector('.carousel-track');
 // const slides = Array.from(track.children);
