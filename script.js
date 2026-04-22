@@ -154,125 +154,230 @@ let isDragging = false;
 
 // updateCarousel()
 
+// let allStudents = [];
+
+// fetch("students.json")
+//     .then(response => response.json())
+//     .then(data => {
+//         allStudents = data.students;
+
+//         if (document.getElementById("list")) {
+//             render(allStudents);
+//         }
+//     })
+//     .catch(error => {
+//         console.error("Error loading JSON:", error);
+//     });
+
+// // student search
+// const list = document.getElementById("list");
+// const searchInput = document.getElementById("search");
+
+// // Render function
+// function render(students) {
+//     if (!list) {
+//         return;
+//     }
+
+//     list.innerHTML = "";
+
+//     const grouped = {};
+
+//     students.forEach(student => {
+//         if (!grouped[student.class]) {
+//             grouped[student.class] = [];
+//         }
+//         grouped[student.class].push(student);
+//     });
+
+//     Object.keys(grouped).forEach(className => {
+//         const classDiv = document.createElement("div");
+//         classDiv.className = "class";
+
+//         const title = document.createElement("div");
+//         title.textContent = className;
+//         title.className = "title";
+//         classDiv.appendChild(title);
+
+//         grouped[className].forEach(student => {
+//             const div = document.createElement("div");
+//             div.className = "student";
+//             if(student.location == "Artist Alley"){
+//             div.innerHTML = `
+//                 <div class="artistAlley"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "XR Stage"){
+//             div.innerHTML = `
+//                 <div class="xrStage"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "Refreshments"){
+//             div.innerHTML = `
+//                 <div class="refreshments"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "Room203"){
+//             div.innerHTML = `
+//                 <div class="room203"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "Room160"){
+//             div.innerHTML = `
+//                 <div class="room160"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "Lobby"){
+//             div.innerHTML = `
+//                 <div class="lobby"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "263 & 281"){
+//             div.innerHTML = `
+//                 <div class="263and281"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "202 & 203"){
+//             div.innerHTML = `
+//                 <div class="202and203"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == "Floor 2"){
+//             div.innerHTML = `
+//                 <div class="floor2"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             if(student.location == null){
+//             div.innerHTML = `
+//                 <div class="other"><strong>${student.name}</strong></div>
+//                 <div>Project: ${student.project}</div>
+//                 <div>Location: ${student.location}</div>
+//             `;
+//             }
+//             classDiv.appendChild(div);
+//         });
+
+//         list.appendChild(classDiv);
+//     });
+// }
+
 let allStudents = [];
 
-fetch("students.json")
-    .then(response => response.json())
-    .then(data => {
-        allStudents = data.students;
-
-        if (document.getElementById("list")) {
-            render(allStudents);
-        }
-    })
-    .catch(error => {
-        console.error("Error loading JSON:", error);
-    });
-
-// student search
 const list = document.getElementById("list");
 const searchInput = document.getElementById("search");
 
-// Render function
-function render(students) {
-    if (!list) {
-        return;
-    }
+// Load JSON
+fetch("students.json")
+    .then(res => res.json())
+    .then(data => {
+        allStudents = data.students;
+        render(allStudents, "");
+    });
 
+// Render function (NOW supports search mode)
+function render(students, searchValue = "") {
     list.innerHTML = "";
 
     const grouped = {};
 
+    // Group safely
     students.forEach(student => {
-        if (!grouped[student.class]) {
-            grouped[student.class] = [];
+        const cls = student.class;
+
+        if (!grouped[cls]) {
+            grouped[cls] = [];
         }
-        grouped[student.class].push(student);
+
+        grouped[cls].push(student);
     });
 
-    Object.keys(grouped).forEach(className => {
+    Object.keys(grouped).sort().forEach(className => {
+
         const classDiv = document.createElement("div");
         classDiv.className = "class";
 
-        const title = document.createElement("div");
-        title.textContent = className;
-        title.className = "title";
-        classDiv.appendChild(title);
+        const header = document.createElement("div");
+        header.className = "title";
+        header.textContent = className;
 
-        grouped[className].forEach(student => {
-            const div = document.createElement("div");
-            div.className = "student";
-            if(student.location == "Artist Alley"){
-            div.innerHTML = `
-                <div class="artistAlley"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == "XR Stage"){
-            div.innerHTML = `
-                <div class="xrStage"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == "Refreshments"){
-            div.innerHTML = `
-                <div class="refreshments"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == "Room203"){
-            div.innerHTML = `
-                <div class="room203"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == "Room160"){
-            div.innerHTML = `
-                <div class="room160"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == "Lobby"){
-            div.innerHTML = `
-                <div class="lobby"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            if(student.location == null){
-            div.innerHTML = `
-                <div class="other"><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
-            }
-            classDiv.appendChild(div);
+        const studentsContainer = document.createElement("div");
+        studentsContainer.className = "studentsContainer";
+
+        let isOpen = searchValue !== "";
+        studentsContainer.style.display = isOpen ? "block" : "none";
+
+        header.addEventListener("click", () => {
+            isOpen = !isOpen;
+            studentsContainer.style.display = isOpen ? "block" : "none";
         });
 
+        // 🔥 IMPORTANT: build children FIRST, then append
+        grouped[className].forEach(student => {
+            const studentDiv = document.createElement("div");
+            studentDiv.className = "student";
+
+            studentDiv.innerHTML = `
+                <div><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+
+            studentsContainer.appendChild(studentDiv);
+        });
+
+        // 🔥 enforce correct hierarchy
+        classDiv.appendChild(header);
+        classDiv.appendChild(studentsContainer);
         list.appendChild(classDiv);
     });
 }
 
-if (searchInput) {
-    searchInput.addEventListener("input", (e) => {
-        const value = e.target.value.toLowerCase();
+searchInput.addEventListener("input", (e) => {
+    const value = e.target.value.toLowerCase();
 
-        const filtered = allStudents.filter(student =>
-            student.name.toLowerCase().includes(value) ||
-            student.class.toLowerCase().includes(value) ||
-            student.project.toLowerCase().includes(value) ||
-            student.location.toLowerCase().includes(value)
-        );
+    const filtered = allStudents.filter(student =>
+        student.name.toLowerCase().includes(value) ||
+        student.class.toLowerCase().includes(value) ||
+        student.project.toLowerCase().includes(value) ||
+        student.location.toLowerCase().includes(value)
+    );
 
-        render(filtered);
-        console.log("rendering");
-    });
-}
+    render(filtered, value);
+});
+
+// if (searchInput) {
+//     searchInput.addEventListener("input", (e) => {
+//         const value = e.target.value.toLowerCase();
+
+//         const filtered = allStudents.filter(student =>
+//             student.name.toLowerCase().includes(value) ||
+//             student.class.toLowerCase().includes(value) ||
+//             student.project.toLowerCase().includes(value) ||
+//             student.location.toLowerCase().includes(value)
+//         );
+
+//         render(filtered);
+//         console.log("rendering");
+//     });
+// }
 
 document.addEventListener('DOMContentLoaded', function() {
     const elems = document.querySelectorAll('.carousel');
