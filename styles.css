@@ -206,6 +206,7 @@ body{
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+
 .class:hover {
     transform: translateY(-0.3vh);
     box-shadow: 0 0.8vh 2vh rgba(0,0,0,0.12);
@@ -223,6 +224,15 @@ body{
     padding-top: 2vh;
     margin-bottom: 10vh;
     padding: 4vh 0;
+}
+
+.student{
+    background-color: #F2F2F2;
+    border-radius: 2vh;
+    margin-bottom: 1vh;
+    padding: 1vh;
+    width: fit-content;
+    padding-right: 10vh;
 }
 
 .search {
@@ -370,6 +380,15 @@ body{
 }
 .student .other::before{
     background-color: #2a2a2a;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    content: "";
+    display: inline-block;
+    margin-right: 1vh;
+}
+.student .lobby::before{
+    background-color: #9dd9e1;
     width: 1vh;
     height: 1vh;
     border-radius: 0.5vh;
@@ -591,6 +610,7 @@ body{
     display: block;
     width: fit-content;
     margin: 3vh auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about {

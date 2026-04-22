@@ -1,132 +1,476 @@
 {
     "students": [
         {
-            "name": "Jimmy",
-            "class": "IMS319",
-            "professor": "Eric Hodson",
-            "location": "Artist Alley",
-            "type": "UX",
-            "project": "ok"
-        },
-        {
-            "name": "John",
-            "class": "IMS461",
-            "professor": "Garrison LeMasters",
-            "location": "XR Stage",
-            "type": "Marketing",
-            "project": "ok"
-        },
-        {
-            "name": "Jackson",
-            "class": "IMS213",
-            "professor": "Tim Demarks",
-            "location": "Refreshments",
-            "type": "Coding",
-            "project": "ok"
-        },
-        {
-            "name": "Jerry",
-            "class": "IMS487",
-            "professor": "Anna Weisling",
-            "location": "Room203",
-            "type": "Games",
-            "project": "ok"
-        },
-        {
-            "name": "Jude",
-            "class": "IMS228",
-            "professor": "Jim Coyle",
-            "location": "Room160",
-            "type": "Design",
-            "project": "ok"
-        },
-        {
-            "name": "Jake",
-            "class": "IMS415",
-            "professor": "Molly Moran",
-            "location": "Artist Alley",
-            "type": "UX",
-            "project": "ok"
-        },
-        {
-            "name": "Johnathan",
-            "class": "IMS319",
-            "professor": "Eric Hodson",
-            "location": "XR Stage",
-            "type": "Marketing",
-            "project": "ok"
-        },
-        {
-            "name": "Julien",
-            "class": "IMS461",
-            "professor": "Garrison LeMasters",
-            "location": "Refreshments",
-            "type": "Coding",
-            "project": "ok"
-        },
-        {
-            "name": "Joan",
-            "class": "IMS213",
-            "professor": "Tim Demarks",
-            "location": "Room117",
-            "type": "Games",
-            "project": "ok"
-        },
-        {
-            "name": "Joseph",
-            "class": "IMS487",
-            "professor": "Anna Weisling",
-            "location": "Room074",
-            "type": "Design",
-            "project": "ok"
-        },
-        {
-            "name": "Jaxon (Wrong Spelling)",
-            "class": "IMS228",
-            "professor": "Jim Coyle",
-            "location": "Artist Alley",
-            "type": "UX",
-            "project": "ok"
-        },
-        {
-            "name": "Jerimiah",
-            "class": "IMS415",
-            "professor": "Molly Moran",
-            "location": "XR Stage",
-            "type": "Marketing",
-            "project": "ok"
-        },
-        {
-            "name": "Jiminny",
-            "class": "IMS319",
-            "professor": "Eric Hodson",
-            "location": "Refreshments",
-            "type": "Coding",
-            "project": "ok"
-        },
-        {
-            "name": "Jeffrey",
-            "class": "IMS461",
-            "professor": "Garrison LeMasters",
-            "location": "Room031",
-            "type": "Games",
-            "project": "ok"
-        },
-        {
-            "name": "James",
-            "class": "IMS213",
-            "professor": "Tim Demarks",
-            "location": "Room012",
-            "type": "Design",
-            "project": "ok"
-        },
-        {
-            "name": "Jim",
-            "class": "IMS487",
-            "professor": "Anna Weisling",
-            "location": "Artist Alley",
-            "type": "UX",
-            "project": "ok"
-        }
-    ]
-}
+                "name": "Jimmy",
+                "class": "IMS319",
+                "professor": "Eric Hodson",
+                "location": "Artist Alley",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "John",
+                "class": "IMS461",
+                "professor": "Garrison LeMasters",
+                "location": "XR Stage",
+                "type": "Marketing",
+                "project": "ok"
+            },
+            {
+                "name": "Jackson",
+                "class": "IMS213",
+                "professor": "Tim Demarks",
+                "location": "Refreshments",
+                "type": "Coding",
+                "project": "ok"
+            },
+            {
+                "name": "Jerry",
+                "class": "IMS487",
+                "professor": "Anna Weisling",
+                "location": "Room203",
+                "type": "Games",
+                "project": "ok"
+            },
+            {
+                "name": "Jude",
+                "class": "IMS228",
+                "professor": "Jim Coyle",
+                "location": "Room160",
+                "type": "Design",
+                "project": "ok"
+            },
+            {
+                "name": "Jaleah Brackney",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Marissa Ellis",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Noah Holland",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Delaney Kuczkowski",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Matthew Lake",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Dejanae Lowery",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Clayton Martin",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Conner Moore",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Amy Nightingale",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Maks Revelle",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Marilyn Stokey",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Jason Streeter",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Will Werner",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Carly Stafford",
+                "class": "IMS415",
+                "professor": "Jim Coyle",
+                "location": "Lobby",
+                "type": "UX",
+                "project": "ok"
+            },
+            {
+                "name": "Paige Baldwin",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Molly Burgess",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Anastasia Crisante",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Adam Edwards",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Nolan Feyler",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Andrew Finkelmeier",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Webb Hall",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Jude Hoy",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Lourdes Leurck",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Laryssa Lively",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Garrett Morris",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Mia Narang",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Michael Szurko",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Allison Vigh",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Gabby Wehrman",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Kylee Winner",
+                "class": "IMS452 B",
+                "professor": "Molly Moran",
+                "location": "Lobby",
+                "type": "Senior Project",
+                "project": "ok"
+            },
+            {
+                "name": "Tyler Albrecht",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Ben Bayer",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Katie Conway",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Max Davis",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Finley Devins",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Austen English",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Augie Flick",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Jack Guenther",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Bene Gyan",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Aj Hill",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Hayley Ho",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Yongzhen Lu",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Patrick Moran",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Talia Oliff",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Bennett Poplin",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Payton Redmon",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Nadine Reid",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Ashley Root",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Ava Savage",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Preston Stucke",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Lucie Stutelberg",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Sydney Tyler",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Lily Walker",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            },
+            {
+                "name": "Taylor Wallace",
+                "class": "IMS228 C",
+                "professor": "Adam Strantz",
+                "location": "Lobby",
+                "type": "Accessibility",
+                "project": "ok"
+            }
+        ]
+    }

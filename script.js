@@ -237,6 +237,13 @@ function render(students) {
                 <div>Location: ${student.location}</div>
             `;
             }
+            if(student.location == "Lobby"){
+            div.innerHTML = `
+                <div class="lobby"><strong>${student.name}</strong></div>
+                <div>Project: ${student.project}</div>
+                <div>Location: ${student.location}</div>
+            `;
+            }
             if(student.location == null){
             div.innerHTML = `
                 <div class="other"><strong>${student.name}</strong></div>
