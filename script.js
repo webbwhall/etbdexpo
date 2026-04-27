@@ -379,16 +379,13 @@ searchInput.addEventListener("input", (e) => {
 //     });
 // }
 
-document.addEventListener('DOMContentLoaded', function() {
-    if (!window.M || !M.Carousel) {
-        console.warn('Materialize Carousel is not available.');
-        return;
-    }
-
+if (window.M && M.Carousel) {
     const elems = document.querySelectorAll('.carousel');
 
     M.Carousel.init(elems, {
         fullWidth: true,
         indicators: true
     });
-});
+} else {
+    console.warn('Materialize Carousel is not available.');
+}
