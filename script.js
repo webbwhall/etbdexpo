@@ -380,11 +380,15 @@ searchInput.addEventListener("input", (e) => {
 // }
 
 document.addEventListener('DOMContentLoaded', function() {
+    if (!window.M || !M.Carousel) {
+        console.warn('Materialize Carousel is not available.');
+        return;
+    }
+
     const elems = document.querySelectorAll('.carousel');
 
     M.Carousel.init(elems, {
-        numVisible: 3,
-        padding: 20,
+        fullWidth: true,
         indicators: true
     });
 });
