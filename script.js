@@ -279,89 +279,89 @@ let isDragging = false;
 //     });
 // }
 
-let allStudents = [];
-
 const list = document.getElementById("list");
 const searchInput = document.getElementById("search");
 
-// Load JSON
-fetch("students.json")
-    .then(res => res.json())
-    .then(data => {
-        allStudents = data.students;
-        render(allStudents, "");
-    });
+if (list && searchInput) {
+    let allStudents = [];
 
-// Render function (NOW supports search mode)
-function render(students, searchValue = "") {
-    list.innerHTML = "";
+    // Load JSON
+    fetch("students.json")
+        .then(res => res.json())
+        .then(data => {
+            allStudents = data.students;
+            render(allStudents, "");
+        });
 
-    const grouped = {};
+    // Render function (NOW supports search mode)
+    function render(students, searchValue = "") {
+        list.innerHTML = "";
 
-    // Group safely
-    students.forEach(student => {
-        const cls = student.class;
+        const grouped = {};
 
-        if (!grouped[cls]) {
-            grouped[cls] = [];
-        }
+        // Group safely
+        students.forEach(student => {
+            const cls = student.class;
 
-        grouped[cls].push(student);
-    });
+            if (!grouped[cls]) {
+                grouped[cls] = [];
+            }
 
-    Object.keys(grouped).sort().forEach(className => {
+            grouped[cls].push(student);
+        });
 
-        const classDiv = document.createElement("div");
-        classDiv.className = "class";
+        Object.keys(grouped).sort().forEach(className => {
 
-        const header = document.createElement("div");
-        header.className = "title";
-        header.textContent = className;
+            const classDiv = document.createElement("div");
+            classDiv.className = "class";
 
-        const studentsContainer = document.createElement("div");
-        studentsContainer.className = "studentsContainer";
+            const header = document.createElement("div");
+            header.className = "title";
+            header.textContent = className;
 
-        let isOpen = searchValue !== "";
-        studentsContainer.style.display = isOpen ? "block" : "none";
+            const studentsContainer = document.createElement("div");
+            studentsContainer.className = "studentsContainer";
 
-        header.addEventListener("click", () => {
-            isOpen = !isOpen;
+            let isOpen = searchValue !== "";
             studentsContainer.style.display = isOpen ? "block" : "none";
+
+            header.addEventListener("click", () => {
+                isOpen = !isOpen;
+                studentsContainer.style.display = isOpen ? "block" : "none";
+            });
+
+            grouped[className].forEach(student => {
+                const studentDiv = document.createElement("div");
+                studentDiv.className = "student";
+
+                studentDiv.innerHTML = `
+                    <div><strong>${student.name}</strong></div>
+                    <div>Project: ${student.project}</div>
+                    <div>Location: ${student.location}</div>
+                `;
+
+                studentsContainer.appendChild(studentDiv);
+            });
+
+            classDiv.appendChild(header);
+            classDiv.appendChild(studentsContainer);
+            list.appendChild(classDiv);
         });
+    }
 
-        // 🔥 IMPORTANT: build children FIRST, then append
-        grouped[className].forEach(student => {
-            const studentDiv = document.createElement("div");
-            studentDiv.className = "student";
+    searchInput.addEventListener("input", (e) => {
+        const value = e.target.value.toLowerCase();
 
-            studentDiv.innerHTML = `
-                <div><strong>${student.name}</strong></div>
-                <div>Project: ${student.project}</div>
-                <div>Location: ${student.location}</div>
-            `;
+        const filtered = allStudents.filter(student =>
+            student.name.toLowerCase().includes(value) ||
+            student.class.toLowerCase().includes(value) ||
+            student.project.toLowerCase().includes(value) ||
+            student.location.toLowerCase().includes(value)
+        );
 
-            studentsContainer.appendChild(studentDiv);
-        });
-
-        // 🔥 enforce correct hierarchy
-        classDiv.appendChild(header);
-        classDiv.appendChild(studentsContainer);
-        list.appendChild(classDiv);
+        render(filtered, value);
     });
 }
-
-searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.toLowerCase();
-
-    const filtered = allStudents.filter(student =>
-        student.name.toLowerCase().includes(value) ||
-        student.class.toLowerCase().includes(value) ||
-        student.project.toLowerCase().includes(value) ||
-        student.location.toLowerCase().includes(value)
-    );
-
-    render(filtered, value);
-});
 
 // if (searchInput) {
 //     searchInput.addEventListener("input", (e) => {
@@ -380,11 +380,31 @@ searchInput.addEventListener("input", (e) => {
 // }
 
 if (window.M && M.Carousel) {
-    const elems = document.querySelectorAll('.carousel');
-
-    M.Carousel.init(elems, {
+    const carousels = document.querySelectorAll('.carousel');
+    const options = {
         fullWidth: true,
         indicators: true
+    };
+
+    carousels.forEach(el => {
+        const instance = M.Carousel.init(el, options);
+        const wrapper = el.closest('.carousel-wrapper');
+
+        if (wrapper) {
+            const prevButton = wrapper.querySelector('.carousel-btn.prev');
+            const nextButton = wrapper.querySelector('.carousel-btn.next');
+
+            if (prevButton) {
+                prevButton.addEventListener('click', () => instance.prev());
+            }
+            if (nextButton) {
+                nextButton.addEventListener('click', () => instance.next());
+            }
+
+            setInterval(() => {
+                instance.next();
+            }, 4200);
+        }
     });
 } else {
     console.warn('Materialize Carousel is not available.');
