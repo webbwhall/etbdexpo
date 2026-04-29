@@ -316,7 +316,8 @@ if (list && searchInput) {
             classDiv.className = "class";
 
             const header = document.createElement("div");
-            header.className = "title";
+            classNames = className.replace(/\s+/g, '').replace(/:/g, '_').replace(/&/g, '');
+            header.classList.add('title', classNames);
             header.textContent = className;
 
             const studentsContainer = document.createElement("div");

@@ -1,1356 +1,1724 @@
 {
     "students": [
-            {
-                "name": "Jaleah Brackney",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Marissa Ellis",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Noah Holland",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Delaney Kuczkowski",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Matthew Lake",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Dejanae Lowery",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Clayton Martin",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Conner Moore",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Amy Nightingale",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Maks Revelle",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Marilyn Stokey",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Jason Streeter",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Will Werner",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Carly Stafford",
-                "class": "IMS415 A",
-                "professor": "Jim Coyle",
-                "location": "Lobby",
-                "type": "UX",
-                "project": "ok"
-            },
-            {
-                "name": "Paige Baldwin",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Molly Burgess",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Anastasia Crisante",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Adam Edwards",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Nolan Feyler",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Andrew Finkelmeier",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Webb Hall",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Jude Hoy",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Lourdes Leurck",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Laryssa Lively",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Garrett Morris",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Mia Narang",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Michael Szurko",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Allison Vigh",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Gabby Wehrman",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Kylee Winner",
-                "class": "IMS452 B",
-                "professor": "Molly Moran",
-                "location": "Lobby",
-                "type": "Senior Project",
-                "project": "ok"
-            },
-            {
-                "name": "Tyler Albrecht",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Ben Bayer",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Katie Conway",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Max Davis",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Finley Devins",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Austen English",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Augie Flick",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Jack Guenther",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Bene Gyan",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Aj Hill",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Hayley Ho",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Yongzhen Lu",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Patrick Moran",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Talia Oliff",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Bennett Poplin",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Payton Redmon",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Nadine Reid",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Ashley Root",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Ava Savage",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Preston Stucke",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Lucie Stutelberg",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Sydney Tyler",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Lily Walker",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Taylor Wallace",
-                "class": "IMS228 C",
-                "professor": "Adam Strantz",
-                "location": "Lobby",
-                "type": "Accessibility",
-                "project": "ok"
-            },
-            {
-                "name": "Sophia Aggazio",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Alyssa Black",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Caitlin Dominski",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Marissa Ellis",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Luke Finley",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Luke Foraker",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Aiden Garcia",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Lissette Garcia",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Charlie Ha",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Hayley Ho",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Mary Johnston-Medina",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Nathan Lomnicky",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Robert Macy",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Rocco Marra",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Sydney Mulford",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Leo Nicholson",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Ella Pawlowski",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Bennett Poplin",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Mason Santalucia",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Nick Schoster",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Olivia Smallcombe",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Kalli Vintzel",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Lia Watt",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Shane Werthaiser",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Jordan Williams",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Tanner Yalich",
-                "class": "IMS430 A",
-                "professor": "Ben Nicholson",
-                "location": "XR Stage",
-                "type": "Creative",
-                "project": "ok"
-            },
-            {
-                "name": "Nathan Anthony",
-                "class": "Independent",
-                "professor": "Garrison LeMasters",
-                "location": "Artist Alley",
-                "type": "Games",
-                "project": "Anathema"
-            },
-            {
-                "name": "Nadia Addington",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Noah Arnold",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Sam Bryant",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Oscar Cashaw",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Adrian Cook",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Iris Currie",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Jacob Devereaux",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Joey Dranzik",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Scott Fero",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Conner Gall",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Cole Hayes",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Logan McNamara",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Michael Patrick",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Alex Rademacher",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Nick Schoster",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Max Vendely",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ryan vonErden",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Drew Willits",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Cody Wilson",
-                "class": "IMS461 A",
-                "professor": "Eric Hodgson",
-                "location": "263 & 281",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Alex Abreu",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Nadia Addington",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Kaleb Amirpour",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Noah Arnold",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Iris Currie",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Conner Gall",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Aiden Garcia",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Charlie Ha",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "James Harper",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Sophia Hatheway",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Reese Hausman",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Savannah Hope",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Andrew Horton",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Sable Jones",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Alexys Lupu",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Logan McNamara",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Nathan Mosley",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Leo Nicholson",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Aaron Pleiman",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Jordyn Pryor",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Nick Schoster",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Dan Stuller",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Christian Tarzia",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Alyssa Thierauf",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Emily Van Schaik",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Aaron Wanko",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Garland Weaver",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Sean Wedig",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Grace Witt",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Landan Zimmerman",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Jonathan Zwilling",
-                "class": "IMS487 A",
-                "professor": "Tim DeMarks",
-                "location": "202 & 203",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Lee Allen",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Kayden Ament",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Maeve Baker",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Emily Barth",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Brandon Belfiore",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Dwayne Bradshaw",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ben Brown",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "West Cannon",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Allen Dicke",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "James Fleischel",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Zoe Greene",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ian Guinn",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Emma Harrison",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Brody Hazel",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Zaya Irion",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Will Lutterbie",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "River Malloy",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Connor Marek",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ron Mazuk",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "DeShaun McDougall",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Annie Miller",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Michael Moulton",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Elijah Nixon",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ian Ohlman",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Emma Personette",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Parker Roos",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Rafi Roseman",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Luke Rudd",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Lillian Russell",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Michael Slack",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Jayson Smith",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Annie Truitt",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Jack Weinberg",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Brady Whyte",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Ivy Wickenhauser",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Murphy Willard",
-                "class": "IMS 213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Paige Wilson",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            },
-            {
-                "name": "Patrick Wright",
-                "class": "IMS213 B",
-                "professor": "Garrison LeMasters",
-                "location": "Floor 2",
-                "type": "Games",
-                "project": "ok"
-            }
-        ]
-    }
+        {
+            "name": "Jaleah Brackney",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Marissa Ellis",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Noah Holland",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Delaney Kuczkowski",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Matthew Lake",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Dejanae Lowery",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Clayton Martin",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Conner Moore",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Amy Nightingale",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Maks Revelle",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Marilyn Stokey",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Jason Streeter",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Will Werner",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Carly Stafford",
+            "class": "IMS415 A: Advanced Usability and User Experience",
+            "professor": "Jim Coyle",
+            "location": "Lobby",
+            "type": "UX",
+            "project": "TimeTimer App Design Presentation"
+        },
+        {
+            "name": "Paige Baldwin",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Molly Burgess",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Anastasia Crisante",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Adam Edwards",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Nolan Feyler",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Andrew Finkelmeier",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Webb Hall",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Jude Hoy",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Lourdes Leurck",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Laryssa Lively",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Garrett Morris",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Mia Narang",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Michael Szurko",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Allison Vigh",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Gabby Wehrman",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Kylee Winner",
+            "class": "IMS452 B: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Tyler Albrecht",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Ben Bayer",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Katie Conway",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Max Davis",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Finley Devins",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Austen English",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Augie Flick",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Jack Guenther",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Bene Gyan",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Aj Hill",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Hayley Ho",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Yongzhen Lu",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Patrick Moran",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Talia Oliff",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Bennett Poplin",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Payton Redmon",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Nadine Reid",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Ashley Root",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Ava Savage",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Preston Stucke",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Lucie Stutelberg",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Sydney Tyler",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Lily Walker",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Taylor Wallace",
+            "class": "IMS228 C: Collaborative Laboratory",
+            "professor": "Adam Strantz",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Sophia Aggazio",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Alyssa Black",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Caitlin Dominski",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Marissa Ellis",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Luke Finley",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Luke Foraker",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Aiden Garcia",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Lissette Garcia",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Charlie Ha",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Hayley Ho",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Mary Johnston-Medina",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Nathan Lomnicky",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Robert Macy",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Rocco Marra",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Sydney Mulford",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Leo Nicholson",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Ella Pawlowski",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Bennett Poplin",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Mason Santalucia",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Nick Schoster",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Olivia Smallcombe",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Kalli Vintzel",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Lia Watt",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Shane Werthaiser",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Jordan Williams",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Tanner Yalich",
+            "class": "IMS430 A: Immersive & Reactive 1: Tools",
+            "professor": "Ben Nicholson",
+            "location": "XR Stage",
+            "type": "Creative",
+            "project": "-"
+        },
+        {
+            "name": "Nathan Anthony, Finn Smart, Jude Hoy",
+            "class": "Independent",
+            "professor": "Garrison LeMasters",
+            "location": "Artist Alley",
+            "type": "Games",
+            "project": "Anathema"
+        },
+        {
+            "name": "Nadia Addington",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Noah Arnold",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Sam Bryant",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Oscar Cashaw",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Adrian Cook",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Iris Currie",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Jacob Devereaux",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Joey Dranzik",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Scott Fero",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Conner Gall",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Cole Hayes",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Logan McNamara",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Michael Patrick",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Alex Rademacher",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Nick Schoster",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Max Vendely",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ryan vonErden",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Drew Willits",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Cody Wilson",
+            "class": "IMS461 A: Virtual Reality",
+            "professor": "Eric Hodgson",
+            "location": "263 & 281",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Lee Allen",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Kayden Ament",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Maeve Baker",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Emily Barth",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Brandon Belfiore",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Dwayne Bradshaw",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ben Brown",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "West Cannon",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Allen Dicke",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "James Fleischel",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Zoe Greene",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ian Guinn",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Emma Harrison",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Brody Hazel",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Zaya Irion",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Will Lutterbie",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "River Malloy",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Connor Marek",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ron Mazuk",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "DeShaun McDougall",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Annie Miller",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Michael Moulton",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Elijah Nixon",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ian Ohlman",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Emma Personette",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Parker Roos",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Rafi Roseman",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Luke Rudd",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Lillian Russell",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Michael Slack",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Jayson Smith",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Annie Truitt",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Jack Weinberg",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Brady Whyte",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Ivy Wickenhauser",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Murphy Willard",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Paige Wilson",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Patrick Wright",
+            "class": "IMS213 B: Introduction to Game Development",
+            "professor": "Garrison LeMasters",
+            "location": "Floor 2",
+            "type": "Games",
+            "project": "-"
+        },
+        {
+            "name": "Floyd Absher",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Max Harman",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Lia Watt",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Alex Harrison",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Emily Smith",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Megan Walston",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Cooper Grill",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Ethan Himes",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Kaden Taylor",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Tyler Hoffman",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Alyssa Molina",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Austen English",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Ben Bayer",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Van Johnson",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Maria Pfahl",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Karly Bocian",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Alex Stella",
+            "class": "IMS375: Human Robot Interaction",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Robotics",
+            "project": "-"
+        },
+        {
+            "name": "Jake Muencz",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Carly Spence",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Alex Stella",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Zach Zhang",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Dylan Fall",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Audrey Fitzgerald",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Mattie Foster",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Maria Hajjar",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Nikta Hossenzadeh",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Sarah Janek",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Drew Koewler",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Delaney Kuczkowski",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Dejane Lowery",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Clayton Martin",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Chase McNeil",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Jack Mitchell",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Mia Narang",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Mouhamadou Dieng",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Zhaoran Mo",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Kaden Taylor",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Rocco Marra",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Garret Morris",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Nikita Hosseinzadeh",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Liam Pennington",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Chirstopher Norris",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Jeremy LeMaster",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Jake Bowhringer",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Adam Edwards",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Lucie Stutelberg",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Jackson Kotecki",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Finley Devins",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Chloe Vayo",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Sophia McLeod",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Brian Nguyen",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Alyssa Parker",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Delaney Kuczkowski",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Olivia Langsdorf",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Caitlin Wong",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Emma Rubinkski",
+            "class": "IMS228 B: Collaborative Laboratory",
+            "professor": "Michael Bailey-Van Kuren",
+            "location": "Lobby",
+            "type": "Accessibility",
+            "project": "-"
+        },
+        {
+            "name": "Ben Brown",
+            "class": "Independent",
+            "professor": "",
+            "location": "Artist Alley",
+            "type": "Games",
+            "project": "Greeny the Blox"
+        },
+        {
+            "name": "Lia Watt",
+            "class": "Independent",
+            "professor": "",
+            "location": "Artist Alley",
+            "type": "Creative",
+            "project": "CBoard"
+        },
+        {
+            "name": "Linh Nguyen",
+            "class": "Independent",
+            "professor": "",
+            "location": "Artist Alley",
+            "type": "Creative",
+            "project": "Linh's Illustrations"
+        },
+        {
+            "name": "Adam Edwards",
+            "class": "Independent",
+            "professor": "",
+            "location": "Artist Alley",
+            "type": "Creative",
+            "project": "Miami Immersive Technology and Design Competition"
+        },
+        {
+            "name": "Stella Hudson",
+            "class": "Independent",
+            "professor": "",
+            "location": "Artist Alley",
+            "type": "Creative",
+            "project": "Wings of Change"
+        },
+        {
+            "name": "Chrisopher Norris, Nathan Anthony, Talia Oliff, Tanner Yalich",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "Funeral Services for Deposed Kings"
+        },
+        {
+            "name": "Trenton Morton",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "Sunset"
+        },
+        {
+            "name": "Trey Poling",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "The Lighthouse"
+        },
+        {
+            "name": "Adrian Cook, Ciara Hall, Dylan Ryan, Isabel Duaso, Matthew Furnee, Sam Sweeny",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "The Missing Ingredient"
+        },
+        {
+            "name": "Alex Rademacher, Charlie Wright, Cole Hayes, Finn Smart, James Squires, Ling Nguyen",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "The Wyrm"
+        },
+        {
+            "name": "Nathan Robles",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "Third Thursday"
+        },
+        {
+            "name": "Caleb Krainman, Libby Schuchardt, Mason Santalucia, Parker Anderson",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "Villian Lair Safety Inspector"
+        },
+        {
+            "name": "David Hartman, Henry Jett, Ian Strahley, Max Harman, Max Vendely, Michael Slack, Robert Macy, Sam Bryant",
+            "class": "IMS489: Game Production",
+            "professor": "Geoffrey Long",
+            "location": "",
+            "type": "Games",
+            "project": "When We Had Wings"
+        },
+        {
+            "name": "Aiden Garcia, Andrew Horton, Christian Tarzia, Grace Witt",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Alchemy Delivery Service"
+        },
+        {
+            "name": "Iris Currie, Reese Hausman, Logan McNamara, Nathan Mosley, Aaron Wanko",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Spiral"
+        },
+        {
+            "name": "Noah Arnold, Sablw Jones, Leo Nicholson, ALyssa Thierauf, Garland Weaver",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "The Blue Fairy Initiative"
+        },
+        {
+            "name": "Nadia Addington, Alexys Lupu, Nick Schoster, Sean Wedig",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Lizard Wizard"
+        },
+        {
+            "name": "Charlie Ha, Sophia Hatheway, Jordyn Pryor, Emily Van Schaik",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "The RatFather"
+        },
+        {
+            "name": "Alex Abreu, Aaron Pleiman, Dan Stuller, Landan Zimmerman, Jonathan Zwilling",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Lights, Camera, Bigfoot!"
+        },
+        {
+            "name": "Conner Gall",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Routier"
+        },
+        {
+            "name": "James Harper",
+            "class": "IMS487: Game Prototyping",
+            "professor": "Tim DeMarks",
+            "location": "",
+            "type": "Games",
+            "project": "Evolumesce"
+        }
+    ]
+}

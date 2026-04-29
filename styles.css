@@ -197,7 +197,46 @@ body{
     border-bottom: 0.2vh solid #f0f0f0;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
+.class .IMS213B_IntroductiontoGameDevelopment::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students learn the fundamentals of 2D game development through guided challenges that build basic programming and art skills with instructional support.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS228C_CollaborativeLaboratory::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Collaborative team projects focused on portfolio and client-style work.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS452B_SeniorDegreeProject::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Final capstone project combining research, design, and execution.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS430A_ImmersiveReactive1_Tools::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students learn to create immersive and interactive digital art experiences using real-time software for installations, XR, projection mapping, and virtual production.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
 .class{
     /* background-color: #bababa; */
     width: 80%;
