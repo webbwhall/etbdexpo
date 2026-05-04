@@ -1241,134 +1241,6 @@
             "project": "-"
         },
         {
-            "name": "Jake Muencz",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Carly Spence",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Alex Stella",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Zach Zhang",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Dylan Fall",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Audrey Fitzgerald",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Mattie Foster",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Maria Hajjar",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Nikta Hossenzadeh",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Sarah Janek",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Drew Koewler",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Delaney Kuczkowski",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Dejane Lowery",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Clayton Martin",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Chase McNeil",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
-            "name": "Jack Mitchell",
-            "class": "IMS452 A: Senior Degree Project",
-            "professor": "Molly Moran",
-            "location": "Lobby",
-            "type": "Senior Project",
-            "project": "-"
-        },
-        {
             "name": "Mia Narang",
             "class": "IMS228 B: Collaborative Laboratory",
             "professor": "Michael Bailey-Van Kuren",
@@ -1719,6 +1591,102 @@
             "location": "",
             "type": "Games",
             "project": "Evolumesce"
+        },
+        {
+            "name": "Delaney Kuczkowski",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Sarah Janeck",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Clay Martin",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "CueKit"
+        },
+        {
+            "name": "Mattie Foster",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "Creatr"
+        },
+        {
+            "name": "Dejanae Lowery",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Lizheng Zhang",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "Chores Slot"
+        },
+        {
+            "name": "Drew Koewler",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Maria Hajjar",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Nikta Hosseinzadeh",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Audrey Fitzgerald",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "Coterie"
+        },
+        {
+            "name": "Dylan Fall",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
+        },
+        {
+            "name": "Jake Muencz",
+            "class": "IMS452 A: Senior Degree Project",
+            "professor": "Molly Moran",
+            "location": "Lobby",
+            "type": "Senior Project",
+            "project": "-"
         }
     ]
 }

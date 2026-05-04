@@ -316,7 +316,7 @@ if (list && searchInput) {
             classDiv.className = "class";
 
             const header = document.createElement("div");
-            classNames = className.replace(/\s+/g, '').replace(/:/g, '_').replace(/&/g, '');
+            classNames = className.replace(/\s+/g, '').replace(/:/g, '_').replace(/&/g, '').replace(/,/g, '');
             header.classList.add('title', classNames);
             header.textContent = className;
 

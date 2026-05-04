@@ -237,6 +237,103 @@ body{
     font-weight: 200;
     font-size: 2vh;
 }
+
+
+
+
+
+
+
+.class .IMS228B_CollaborativeLaboratory::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students collaborate on self-directed projects using emerging technologies, building portfolio work while receiving mentorship from faculty and industry professionals.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS375_HumanRobotInteraction::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students study foundational robotics concepts and human-robot interaction while researching societal issues and developing a project involving a humanoid robot interacting with people.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS415A_AdvancedUsabilityandUserExperience::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students collaborate in small groups with a real client to conduct user experience research, analyze findings, and design a wireframed, clickable prototype with final recommendations—without coding.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS452A_SeniorDegreeProject::after{
+    width: 80%;
+    margin-left: 10%;
+    content: " Final capstone project combining research, design, and execution.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS461A_VirtualReality::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students study and create VR and 3D experiences, including simulations, motion tracking, and data visualization, with an emphasis on building applications in immersive environments.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS487A_GamePrototypingPipelineandProduction::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students learn video game production pipelines and interdisciplinary team development while creating small, original, playable real-time game prototypes.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS487_GamePrototyping::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students learn video game production pipelines and interdisciplinary team development while creating small, original, playable real-time game prototypes.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .IMS489_GameProduction::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "Students move from pre-production into production on their final capstone games.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
+.class .Independent::after{
+    width: 80%;
+    margin-left: 10%;
+    content: "A collection of independent projects by students.";
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vh;
+}
 .class{
     /* background-color: #bababa; */
     width: 80%;
